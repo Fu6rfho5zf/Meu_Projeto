@@ -28,7 +28,7 @@
   ],
   "TV ABERTA": [
     {
-      			"longDescription": " ", '////primeiro item
+      			"longDescription": " ",
 			"thumbnail": "https://image.roku.com/ZHZscHItMTc2/streaming-overview.jpg",
 			"releaseDate": "2020-01-15",
 			"genres": [
@@ -52,7 +52,7 @@
 			}
 		},
 		{
-			"longDescription": "	",////segundo item
+			"longDescription": "	",
 			"thumbnail": "https://image.roku.com/ZHZscHItMTc2/roku-overview.jpg",
 			"releaseDate": "2020-01-15",
 			"genres": [
@@ -76,7 +76,7 @@
 			}
 		},
 		{
-			"longDescription": "	",////terceiro item
+			"longDescription": "	",
 			"thumbnail": "https://image.roku.com/ZHZscHItMTc2/enable-developer-mode-v1b.png",
 			"releaseDate": "2020-01-17",
 			"genres": [
@@ -100,7 +100,7 @@
 			}
 		},
 			{
-			"longDescription": "	",////quarto item
+			"longDescription": "	",
 			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
 			"releaseDate": "2020-01-17",
 			"genres": [
