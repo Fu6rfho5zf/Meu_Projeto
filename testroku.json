@@ -57,31 +57,40 @@
             "language": "en",
             "captionType": "CLOSED_CAPTION",
             "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
-			}
+          }
 		},
 		{
-			"longDescription": "Grupo Bandeirantes de Comunicação é um conglomerado de mídia brasileiro criado a partir da inauguração da Rádio Bandeirantes, que entrou no ar em 6 de maio de 1937. O grupo foi fundado pelo empresário paulista João Saad, que assumiu o comando da emissora de rádio das mãos de seu sogro, o político Ademar de Barros..",
-			"thumbnail": "http://lfpy.club/JZA1",
-			"releaseDate": "2025-05-04",
-			"genres": [
-				"TV ABERTA"
-			],
-			"tags": [
-				"demo"
-			],
-			"id": "6DU6DHYT",
-			"shortDescription": "Demonstrates the Roku Remote Debugger",
-			"title": "TV BAND",
-			"content": {
-				"duration": 0,
-				"videos": [{
-					"videoType": "m3u8",
-					"url": "https://image.roku.com/ZHZscHItMTc2/roku-brightscript-debug-protocol.mp4",
-					"quality": "HD"
-				}],
-				"language": "pt-br",
-				"dateAdded": "2020-01-29T02:39:11Z"
-			}
+      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+      "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
+      "releaseDate": "2020-01-17",
+      "genres": ["educational"],
+      "tags": ["feature"],
+      "id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
+      "shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+      "title": "Voice Features",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "MP4",
+            "url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.mp4",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-29T02:39:12Z",
+        "captions": [
+          {
+            "language": "en",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
+          },
+          {
+            "language": "en",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
+          }
+
         ]
       }
     }
