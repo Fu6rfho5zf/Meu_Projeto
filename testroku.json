@@ -62,7 +62,7 @@
         "videos": [
           {
             "videoType": "m3u8",
-            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/827",
+            "url": "http://1.asdrtp.live:8080/play/PeM88zS6pFIK1wnxe-SqZPhhQbVBHSFUJZaisxDGelA",
             "quality": "FHD"
           }
         ],
@@ -84,7 +84,7 @@
         "videos": [
           {
             "videoType": "m3u8",
-            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/828",
+            "url": "http://1.asdrtp.live:8080/play/PeM88zS6pFIK1wnxe-SqZIeXdUkbKgnPIyuTZopShpk",
             "quality": "FHD"
           }
         ],
@@ -106,7 +106,7 @@
         "videos": [
           {
             "videoType": "m3u8",
-            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/80558",
+            "url": "http://1.asdrtp.live:8080/play/PeM88zS6pFIK1wnxe-SqZInwYIztUrx4VtId-rKYicw",
             "quality": "FHD"
           }
         ],
@@ -128,7 +128,7 @@
         "videos": [
           {
             "videoType": "m3u8",
-            "url": "http://ratomickey.eu:8080/jogomes/dCyd6FKtWNmf/90099",
+            "url": "http://1.asdrtp.live:8080/play/PeM88zS6pFIK1wnxe-SqZHxEiCCVD43GKxqOAD4d2WE",
             "quality": "FHD"
           }
         ],
@@ -138,7 +138,7 @@
     },
 	{
 	"longDescription": "NICKELODEON EM ALTA DEFINIÇÃO",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/512px-Nickelodeon_2009_logo.svg.png",
+      "thumbnail": "https://img.pndz.xyz/nickelodeonhd.png",
       "releaseDate": "2025-05-04",
       "genres": ["INFANTIL"],
       "tags": ["demo"],
@@ -150,7 +150,7 @@
         "videos": [
           {
             "videoType": "m3u8",
-            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/822",
+            "url": "http://1.asdrtp.live:8080/play/PeM88zS6pFIK1wnxe-SqZGwWVT4MgXp-2egXvwqG0Mk",
             "quality": "FHD"
           }
         ],
@@ -160,7 +160,7 @@
     },
 	{
 	"longDescription": "NICK JR EM ALTA DEFINIÇÃO",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/512px-Cartoonito_-_Logo_2021.svg.png",
+      "thumbnail": "https://img.pndz.xyz/nickjr.png",
       "releaseDate": "2025-05-04",
       "genres": ["INFANTIL"],
       "tags": ["demo"],
@@ -172,7 +172,7 @@
         "videos": [
           {
             "videoType": "m3u8",
-            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/822",
+            "url": "http://1.asdrtp.live:8080/play/PeM88zS6pFIK1wnxe-SqZE5AGW_s71KRSktk5bLk4i0",
             "quality": "FHD"
           }
         ],
@@ -181,20 +181,86 @@
       }
     },
 	{
-	"longDescription": "NICK JR EM ALTA DEFINIÇÃO",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/512px-Cartoonito_-_Logo_2021.svg.png",
+	"longDescription": "DISCOVERY KIDS EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://img.pndz.xyz/discoverykids.png",
       "releaseDate": "2025-05-04",
       "genres": ["INFANTIL"],
       "tags": ["demo"],
       "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
       "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
-      "title": "CARTOONITO",
+      "title": "DISCOVERY KIDS",
       "content": {
         "duration": 0,
         "videos": [
           {
             "videoType": "m3u8",
-            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/822",
+            "url": "http://1.asdrtp.live:8080/play/PeM88zS6pFIK1wnxe-SqZI8nA3ROmafOvBFKW8iVI-U",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    },
+	{
+	"longDescription": "TOONCAST EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://img.pndz.xyz/tooncast.png",
+      "releaseDate": "2025-05-04",
+      "genres": ["INFANTIL"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "TOONCAST",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "http://1.asdrtp.live:8080/play/PeM88zS6pFIK1wnxe-SqZDR2y_mgQnF6ydrY9_4hIH0",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    },
+	{
+	"longDescription": "TV RA-TIM-BUM EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://img.pndz.xyz/rtb.png",
+      "releaseDate": "2025-05-04",
+      "genres": ["INFANTIL"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "TV RA-TIM-BUM",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "http://1.asdrtp.live:8080/play/PeM88zS6pFIK1wnxe-SqZFzy8AbqQUgiNlkz0uTX3rg",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    },
+	{
+	"longDescription": "TV ZOOMO EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://img.pndz.xyz/zoo_moo.png",
+      "releaseDate": "2025-05-04",
+      "genres": ["INFANTIL"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "TV ZOOMO",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "http://1.asdrtp.live:8080/play/PeM88zS6pFIK1wnxe-SqZNBSVEoK-PQq9favWvArvzs",
             "quality": "FHD"
           }
         ],
