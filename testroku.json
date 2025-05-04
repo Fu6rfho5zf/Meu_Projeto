@@ -28,221 +28,153 @@
   ],
     "TV ABERTA": [
     {
-      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
-			"releaseDate": "2020-01-17",
-			"genres": [
-				"educational"
-			],
-			"tags": [
-				"feature"
-			],
-			"id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
-			"shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-			"title": "Voice Features",
-			"content": {
-				"duration": 98,
-				"videos": [{
-					"videoType": "MP4",
-					"url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.mp4",
-					"quality": "HD"
-				}],
-				"language": "en-us",
-				"dateAdded": "2020-01-29T02:39:12Z",
-				"captions": [{
-						"language": "en",
-						"captionType": "CLOSED_CAPTION",
-						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
-					},
-					{
-						"language": "en",
-						"captionType": "CLOSED_CAPTION",
-						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
-          }
-        ]
-      }
-    },
-    {
-      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
-			"releaseDate": "2020-01-17",
-			"genres": [
-				"educational"
-			],
-			"tags": [
-				"feature"
-			],
-			"id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
-			"shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-			"title": "Voice Features",
-			"content": {
-				"duration": 98,
-				"videos": [{
-					"videoType": "MP4",
-					"url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.mp4",
-					"quality": "HD"
-				}],
-				"language": "en-us",
-				"dateAdded": "2020-01-29T02:39:12Z",
-				"captions": [{
-						"language": "en",
-						"captionType": "CLOSED_CAPTION",
-						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
-					},
-					{
-						"language": "en",
-						"captionType": "CLOSED_CAPTION",
-						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
-          }
-        ]
-      }
-    },
-    {
-      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
-			"releaseDate": "2020-01-17",
-			"genres": [
-				"educational"
-			],
-			"tags": [
-				"feature"
-			],
-			"id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
-			"shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-			"title": "Voice Features",
-			"content": {
-				"duration": 98,
-				"videos": [{
-					"videoType": "MP4",
-					"url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.mp4",
-					"quality": "HD"
-				}],
-				"language": "en-us",
-				"dateAdded": "2020-01-29T02:39:12Z",
-				"captions": [{
-						"language": "en",
-						"captionType": "CLOSED_CAPTION",
-						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
-					},
-					{
-						"language": "en",
-						"captionType": "CLOSED_CAPTION",
-						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
-          }
-        ]
-      }
-    },
-    {
-      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
-			"releaseDate": "2020-01-17",
-			"genres": [
-				"educational"
-			],
-			"tags": [
-				"feature"
-			],
-			"id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
-			"shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-			"title": "Voice Features",
-			"content": {
-				"duration": 98,
-				"videos": [{
-					"videoType": "MP4",
-					"url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.mp4",
-					"quality": "HD"
-				}],
-				"language": "en-us",
-				"dateAdded": "2020-01-29T02:39:12Z",
-				"captions": [{
-						"language": "en",
-						"captionType": "CLOSED_CAPTION",
-						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
-					},
-					{
-						"language": "en",
-						"captionType": "CLOSED_CAPTION",
-						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
-          }
-        ]
-      }
-    },
-    {
-      "title": "TV BRASIL",
-      "shortDescription": "TV Pública",
-      "longDescription": "Canal TV Brasil com conteúdo público e cultural.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/b/b6/TV_Brasil_logo_2019.png",
+      "longDescription": "Canal BAND SP HD em alta definição.",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/1/17/Band_logotipo_2011.png",
       "releaseDate": "2025-05-01",
-      "genres": ["public"],
-      "id": "tv-brasil",
+      "genres": [
+        "news"
+      ],
+      "tags": [
+        "news"
+      ],
+      "id": "band-sp-hd",
+      "shortDescription": "BAND SP HD",
+      "title": "BAND SP HD",
       "content": {
-        "language": "pt-br",
-        "dateAdded": "2025-05-04T00:00:00Z",
+        "duration": 0,
         "videos": [
           {
-            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/121",
-            "quality": "HD",
-            "videoType": "HLS"
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/324",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T09:04:37Z",
+        "captions": [
+          {
+            "language": "pt",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://meuexemplo.com/legenda.srt"
+          },
+          {
+            "language": "pt",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://meuexemplo.com/legenda.vtt"
           }
         ]
       }
     },
     {
-      "title": "TV CULTURA",
-      "shortDescription": "Cultura",
-      "longDescription": "Canal TV Cultura com conteúdo educativo.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/48/TV_Cultura_logo_2011.png",
+      "longDescription": "Canal RECORD TV SP HD em alta definição.",
+      "thumbnail": "https://play-lh.googleusercontent.com/6XN3m0tMmPMrjwOjkE1NDEdZpO-Hptq3mMZhdm_c4Adl3HdvDG8uNbF9i81Hb_jDPJk",
       "releaseDate": "2025-05-01",
-      "genres": ["educational"],
-      "id": "tv-cultura",
+      "genres": [
+        "news"
+      ],
+      "tags": [
+        "news"
+      ],
+      "id": "record-tv-sp-hd",
+      "shortDescription": "RECORD TV ",
+      "title": "RECORD TV SP HD",
       "content": {
-        "language": "pt-br",
-        "dateAdded": "2025-05-04T00:00:00Z",
+        "duration": 0,
         "videos": [
           {
-            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/568",
-            "quality": "HD",
-            "videoType": "HLS"
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/322",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T09:04:37Z",
+        "captions": [
+          {
+            "language": "pt",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://meuexemplo.com/legenda.srt"
+          },
+          {
+            "language": "pt",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://meuexemplo.com/legenda.vtt"
           }
         ]
       }
     },
     {
-      "title": "Loading TV",
-      "shortDescription": "Loading",
-      "longDescription": "Canal Loading TV com programação jovem.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/92/Logo-loadingtv-2020.png",
+      "longDescription": "Canal REDETV SP HD em alta definição.",
+      "thumbnail": "https://logodetimes.com/times/redetv/logo-redetv-4096.png",
       "releaseDate": "2025-05-01",
-      "genres": ["youth"],
-      "id": "loading-tv",
+      "genres": [
+        "news"
+      ],
+      "tags": [
+        "news"
+      ],
+      "id": "redetv-sp-hd",
+      "shortDescription": "REDETV SP ",
+      "title": "REDETV SP HD",
       "content": {
-        "language": "pt-br",
-        "dateAdded": "2025-05-04T00:00:00Z",
+        "duration": 0,
         "videos": [
           {
-            "url": "https://stmv1.srvif.com/loadingtv/loadingtv/chunklist_w1414038597.m3u8",
-            "quality": "HD",
-            "videoType": "HLS"
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/321",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T09:04:37Z",
+        "captions": [
+          {
+            "language": "pt",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://meuexemplo.com/legenda.srt"
+          },
+          {
+            "language": "pt",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://meuexemplo.com/legenda.vtt"
           }
         ]
       }
     },
     {
-      "title": "GLOBO SP FHD",
-      "shortDescription": "Globo SP",
-      "longDescription": "Canal Globo São Paulo em Full HD.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/8/81/TV_Globo_2021.svg",
+      "longDescription": "Canal TV CULTURA HD em alta definição.",
+      "thumbnail": "https://play-lh.googleusercontent.com/yZ3ZaaBFZTVx6byErsOh41_l8r2GE3-4dhr0F8PbJuAON5N8K2aB8F3xbDyb9_GpqWw",
       "releaseDate": "2025-05-01",
-      "genres": ["news", "entertainment"],
-      "id": "globo-sp-fhd",
+      "genres": [
+        "news"
+      ],
+      "tags": [
+        "news"
+      ],
+      "id": "tv-cultura-hd",
+      "shortDescription": "TV CULTURA",
+      "title": "TV CULTURA HD",
       "content": {
-        "language": "pt-br",
-        "dateAdded": "2025-05-04T00:00:00Z",
+        "duration": 0,
         "videos": [
           {
-            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/715",
-            "quality": "FHD",
-            "videoType": "HLS"
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/327",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T09:04:37Z",
+        "captions": [
+          {
+            "language": "pt",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://meuexemplo.com/legenda.srt"
+          },
+          {
+            "language": "pt",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://meuexemplo.com/legenda.vtt"
           }
         ]
       }
