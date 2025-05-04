@@ -727,7 +727,33 @@
 				"language": "en-us",
 				"dateAdded": "2020-01-29T02:39:11Z"
 			}
+				]
+			}
+		}
+	],
+	"INFANTIL": [{
+			"longDescription": "Video demonstrating how a developer can use the Developer Dashboard's user access management feature to give team members the authority to take administrative actions, which are appropriate for their respective organizational roles",
+			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660_1/images/userManagementAccess.jpg",
+			"releaseDate": "2020-01-20",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"demo"
+			],
+			"id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+			"shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+			"title": "Managing user access",
+			"content": {
+				"duration": 576,
+				"videos": [{
+					"videoType": "HLS",
+					"url": "https://ovp-selector.sr.roku.com/v1/0c18bf4e-b295-437c-badb-3a171a1b52aa?format=hls",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:11Z"
+			}
 		}
 	]
-
 }
