@@ -28,107 +28,273 @@
   ],
     "TV ABERTA": [
     {
-      "longDescription": "Canal BAND SP HD em alta definição.",
-      "thumbnail": "https://i.imgur.com/SOfcdFf.png",
-      "releaseDate": "2025-05-01",
-      "genres": [
-        "news"
-      ],
-      "tags": [
-        "news"
-      ],
-      "id": "band-sp-hd",
-      "shortDescription": "BAND SP HD",
-      "title": "BAND SP HD",
-      "content": {
-        "duration": 0,
-        "videos": [
-          {
-            "videoType": "m3u8",
-            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/324",
-            "quality": "FHD"
+      "longDescription": "SBT em alta definição.",
+			"thumbnail": "http://lfpy.club/JZA6",
+			"releaseDate": "2020-01-17",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"feature"
+			],
+			"id": "646747464d",
+			"shortDescription": "SBT HD EM ALTA DEFINIÇÃO",
+			"title": "SBT HD",
+			"content": {
+				"duration": 0,
+				"videos": [{
+					"videoType": "m3u8",
+					"url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:12Z",
+				
           }
-        ],
-        "language": "pt-br",
-        "dateAdded": "2025-05-04T09:04:37Z",
-          }
+        ]
+      }
     },
     {
-      "longDescription": "Canal RECORD TV SP HD em alta definição.",
-      "thumbnail": "https://play-lh.googleusercontent.com/6XN3m0tMmPMrjwOjkE1NDEdZpO-Hptq3mMZhdm_c4Adl3HdvDG8uNbF9i81Hb_jDPJk",
-      "releaseDate": "2025-05-01",
-      "genres": [
-        "news"
-      ],
-      "tags": [
-        "news"
-      ],
-      "id": "record-tv-sp-hd",
-      "shortDescription": "RECORD TV ",
-      "title": "RECORD TV SP HD",
-      "content": {
-        "duration": 0,
-        "videos": [
-          {
-            "videoType": "m3u8",
-            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/322",
-            "quality": "FHD"
+      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
+			"releaseDate": "2020-01-17",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"feature"
+			],
+			"id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
+			"shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"title": "Voice Features",
+			"content": {
+				"duration": 0,
+				"videos": [{
+					"videoType": "m3u8",
+					"url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:12Z",
+				"captions": [{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
+					},
+					{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
           }
-        ],
-        "language": "pt-br",
-        "dateAdded": "2025-05-04T09:04:37Z",
-          }
+        ]
+      }
     },
     {
-      "longDescription": "Canal REDETV SP HD em alta definição.",
-      "thumbnail": "https://logodetimes.com/times/redetv/logo-redetv-4096.png",
-      "releaseDate": "2025-05-01",
-      "genres": [
-        "news"
-      ],
-      "tags": [
-        "news"
-      ],
-      "id": "redetv-sp-hd",
-      "shortDescription": "REDETV SP ",
-      "title": "REDETV SP HD",
-      "content": {
-        "duration": 0,
-        "videos": [
-          {
-            "videoType": "m3u8",
-            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/321",
-            "quality": "FHD"
+      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
+			"releaseDate": "2020-01-17",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"feature"
+			],
+			"id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
+			"shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"title": "Voice Features",
+			"content": {
+				"duration": 0,
+				"videos": [{
+					"videoType": "m3u8",
+					"url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:12Z",
+				"captions": [{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
+					},
+					{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
           }
-        ],
-        "language": "pt-br",
-        "dateAdded": "2025-05-04T09:04:37Z",        
-          }
+        ]
+      }
     },
     {
-      "longDescription": "Canal TV CULTURA HD em alta definição.",
-      "thumbnail": "https://play-lh.googleusercontent.com/yZ3ZaaBFZTVx6byErsOh41_l8r2GE3-4dhr0F8PbJuAON5N8K2aB8F3xbDyb9_GpqWw",
-      "releaseDate": "2025-05-01",
-      "genres": [
-        "news"
-      ],
-      "tags": [
-        "news"
-      ],
-      "id": "tv-cultura-hd",
-      "shortDescription": "TV CULTURA",
-      "title": "TV CULTURA HD",
-      "content": {
-        "duration": 0,
-        "videos": [
-          {
-            "videoType": "m3u8",
-            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/327",
-            "quality": "FHD"
+      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
+			"releaseDate": "2020-01-17",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"feature"
+			],
+			"id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
+			"shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"title": "Voice Features",
+			"content": {
+				"duration": 0,
+				"videos": [{
+					"videoType": "m3u8",
+					"url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:12Z",
+				"captions": [{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
+					},
+					{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
           }
-        ],
-        "language": "pt-br",
-        "dateAdded": "2025-05-04T09:04:37Z",
+        ]
+      }
+    },
+    {
+      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
+			"releaseDate": "2020-01-17",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"feature"
+			],
+			"id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
+			"shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"title": "Voice Features",
+			"content": {
+				"duration": 0,
+				"videos": [{
+					"videoType": "m3u8",
+					"url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:12Z",
+				"captions": [{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
+					},
+					{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
+          }
+        ]
+      }
+    },
+    {
+      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
+			"releaseDate": "2020-01-17",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"feature"
+			],
+			"id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
+			"shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"title": "Voice Features",
+			"content": {
+				"duration": 0,
+				"videos": [{
+					"videoType": "m3u8",
+					"url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:12Z",
+				"captions": [{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
+					},
+					{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
+          }
+        ]
+      }
+    },
+    {
+      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
+			"releaseDate": "2020-01-17",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"feature"
+			],
+			"id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
+			"shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"title": "Voice Features",
+			"content": {
+				"duration": 0,
+				"videos": [{
+					"videoType": "m3u8",
+					"url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:12Z",
+				"captions": [{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
+					},
+					{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
+          }
+        ]
+      }
+    },
+    {
+      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
+			"releaseDate": "2020-01-17",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"feature"
+			],
+			"id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
+			"shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+			"title": "Voice Features",
+			"content": {
+				"duration": 0,
+				"videos": [{
+					"videoType": "m3u8",
+					"url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:12Z",
+				"captions": [{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
+					},
+					{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
           }
         ]
       }
@@ -148,8 +314,8 @@
         "duration": 0,
         "videos": [
           {
-            "videoType": "MP4",
-            "url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.mp4",
+            "videoType": "m3u8",
+            "url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
             "quality": "HD"
           }
         ],
@@ -184,8 +350,8 @@
         "duration": 0,
         "videos": [
           {
-            "videoType": "MP4",
-            "url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.mp4",
+            "videoType": "m3u8",
+            "url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
             "quality": "HD"
           }
         ],
@@ -220,8 +386,8 @@
         "duration": 0,
         "videos": [
           {
-            "videoType": "MP4",
-            "url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.mp4",
+            "videoType": "m3u8",
+            "url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
             "quality": "HD"
           }
         ],
