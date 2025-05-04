@@ -2,7 +2,7 @@
 	"providerName": "Roku Developers",
 	"language": "en-US",
 	"lastUpdated": "2020-03-15T02:01:00+02:00",
-	"shortFormVideos": [
+	"NOVIDADES": [
 	{
 			"longDescription": "Learn how streaming works on the Roku platform. This video explains how content is delivered from a content delivery network (CDN) to a Roku device via a content feed",
 			"thumbnail": "https://image.roku.com/ZHZscHItMTc2/streaming-overview.jpg",
@@ -111,7 +111,7 @@
 			}
 		}
 	],
-	"TV ABERTA": [{
+	"TV-ABERTA": [{
 			"longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
 			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
 			"releaseDate": "2020-01-17",
@@ -183,7 +183,7 @@
 			}
 		}
 	],
-	"FILME E SEIRES": [{
+	"FILME-E-SEIRES": [{
 			"longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
 			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
 			"releaseDate": "2020-01-17",
