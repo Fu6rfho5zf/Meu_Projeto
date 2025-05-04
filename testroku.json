@@ -1,0 +1,270 @@
+{
+  "providerName": "DANIEL",
+  "language": "en-US",
+  "lastUpdated": "2020-03-15T02:01:00+02:00",
+  " ": [
+    {
+      "longDescription": "Video demonstrating how a developer can use the Developer Dashboard's user access management feature to give team members the authority to take administrative actions, which are appropriate for their respective organizational roles",
+      "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660_1/images/userManagementAccess.jpg",
+      "releaseDate": "2020-01-20",
+      "genres": ["educational"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "Managing user access",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "HLS",
+            "url": "https://ovp-selector.sr.roku.com/v1/0c18bf4e-b295-437c-badb-3a171a1b52aa?format=hls",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-29T02:39:11Z"
+      }
+    },
+    {
+      "longDescription": "Video demonstrating how a developer can use the Developer Dashboard's user access management feature to give team members the authority to take administrative actions, which are appropriate for their respective organizational roles",
+      "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660_1/images/userManagementAccess.jpg",
+      "releaseDate": "2020-01-20",
+      "genres": ["educational"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "Managing user access",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "HLS",
+            "url": "https://ovp-selector.sr.roku.com/v1/0c18bf4e-b295-437c-badb-3a171a1b52aa?format=hls",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-29T02:39:11Z"
+      }
+    }
+  ],
+	  "TV ABERTA": [
+    {
+      "longDescription": "SBT EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://i.imgur.com/tc1ALuu.png",
+      "releaseDate": "2025-05-04",
+      "genres": ["ABERTA"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "SBT",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/870",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    },
+    {
+      "longDescription": "TV CULTURA EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://i.imgur.com/hcApLfE.png",
+      "releaseDate": "2025-05-04",
+      "genres": ["EDUCATIVA"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "TV CULTURA",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/568",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    },
+	{
+      "longDescription": "LOADING TV EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/1d08352f33c92124373d9f3b0fcf2ef8.webp",
+      "releaseDate": "2025-05-04",
+      "genres": ["EDUCATIVA"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "LOADING TV",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "https://stmv1.srvif.com/loadingtv/loadingtv/chunklist_w1414038597.m3u8",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    },
+	{
+	"longDescription": "TV BRASIL EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/TV_Brasil_logo_2019.svg/512px-TV_Brasil_logo_2019.svg.png",
+      "releaseDate": "2025-05-04",
+      "genres": ["EDUCATIVA"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "TV BRASIL",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/121",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    },
+	{
+	"longDescription": "REDE GLOBO EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://reidoscanais.cc/img/tvglobo.png",
+      "releaseDate": "2025-05-04",
+      "genres": ["EDUCATIVA"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "REDE GLOBO",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/715",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    }
+  ],
+  "CANAIS INFANTIL": [{
+      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+      "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
+      "releaseDate": "2020-01-17",
+      "genres": ["educational"],
+      "tags": ["feature"],
+      "id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
+      "shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+      "title": "Voice Features",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-29T02:39:12Z",
+        "captions": [
+          {
+            "language": "en",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
+          },
+          {
+            "language": "en",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
+          }
+        ]
+      }
+    }
+  ],
+  "FILMES e SERIES": [
+    {
+      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+      "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
+      "releaseDate": "2020-01-17",
+      "genres": ["educational"],
+      "tags": ["feature"],
+      "id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
+      "shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+      "title": "Voice Features",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-29T02:39:12Z",
+        "captions": [
+          {
+            "language": "en",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
+          },
+          {
+            "language": "en",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
+          }
+        ]
+      }
+    }
+  ],
+  "CANAIS HBO": [
+    {
+      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+      "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
+      "releaseDate": "2020-01-17",
+      "genres": ["educational"],
+      "tags": ["feature"],
+      "id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
+      "shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
+      "title": "Voice Features",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.m3u8",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-29T02:39:12Z",
+        "captions": [
+          {
+            "language": "en",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
+          },
+          {
+            "language": "en",
+            "captionType": "CLOSED_CAPTION",
+            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
+          }
+        ]
+      }
+    }
+  ]
+}
