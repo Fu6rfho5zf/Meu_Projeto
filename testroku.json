@@ -1,5 +1,5 @@
 {
-  "providerName": "DANIEL",
+  "providerName": "DANIEL5",
   "language": "en-US",
   "lastUpdated": "2020-03-15T02:01:00+02:00",
   " ": [
@@ -48,7 +48,7 @@
       }
     }
   ],
-	  "TV ABERTA": [
+  "TV ABERTA": [
     {
       "longDescription": "SBT EM ALTA DEFINIÇÃO",
       "thumbnail": "https://i.imgur.com/tc1ALuu.png",
@@ -159,12 +159,12 @@
         "dateAdded": "2025-05-04T02:39:11Z"
       }
     }
-  ], 
-      "CANAIS INFANTIL": [{
+  ],
+  "CANAIS INFANTIL": [{
       "longDescription": "GLOOB EM ALTA DEFINIÇÃO"
       "thumbnail": "https://i.imgur.com/N1BUULh.png",
       "releaseDate": "2025-05-04",
-      "genres": ["ABERTA"],
+      "genres": ["Desenho"],
       "tags": ["demo"],
       "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
       "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
@@ -186,7 +186,7 @@
       "longDescription": "NICKELODEON EM ALTA DEFINIÇÃO",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/512px-Nickelodeon_2009_logo.svg.png",
       "releaseDate": "2025-05-04",
-      "genres": ["EDUCATIVA"],
+      "genres": ["Desenho"],
       "tags": ["demo"],
       "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
       "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
@@ -208,7 +208,7 @@
       "longDescription": "TV GLOOBINHO EM ALTA DEFINIÇÃO",
       "thumbnail": "https://i.imgur.com/UWkHErt.png",
       "releaseDate": "2025-05-04",
-      "genres": ["EDUCATIVA"],
+      "genres": ["Desenho"],
       "tags": ["demo"],
       "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
       "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
@@ -230,7 +230,7 @@
 	"longDescription": "CARTON NETWORK EM ALTA DEFINIÇÃO",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png",
       "releaseDate": "2025-05-04",
-      "genres": ["EDUCATIVA"],
+      "genres": ["Desenho"],
       "tags": ["demo"],
       "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
       "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
@@ -252,7 +252,7 @@
 	"longDescription": "CARTOONITO EM ALTA DEFINIÇÃO",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/512px-Cartoonito_-_Logo_2021.svg.png",
       "releaseDate": "2025-05-04",
-      "genres": ["EDUCATIVA"],
+      "genres": ["Desenho"],
       "tags": ["demo"],
       "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
       "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
@@ -271,7 +271,7 @@
       }
     }
   ],
-	  "FILMES e SERIES": [{
+  "FILMES e SERIES": [{
       "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
       "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
       "releaseDate": "2020-01-17",
@@ -306,7 +306,7 @@
       }
     }
   ],
-	  "CANAIS HBO": [{
+  "CANAIS HBO": [{
       "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
       "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
       "releaseDate": "2020-01-17",
