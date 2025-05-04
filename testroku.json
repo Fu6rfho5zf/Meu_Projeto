@@ -28,74 +28,113 @@
   ],
   "TV ABERTA": [
     {
-      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-      "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
-      "releaseDate": "2020-01-17",
-      "genres": ["educational"],
-      "tags": ["feature"],
-      "id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
-      "shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-      "title": "Voice Features",
-      "content": {
-        "duration": 0,
-        "videos": [
-          {
-            "videoType": "MP4",
-            "url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.mp4",
-            "quality": "HD"
-          }
-        ],
-        "language": "en-us",
-        "dateAdded": "2020-01-29T02:39:12Z",
-        "captions": [
-          {
-            "language": "en",
-            "captionType": "CLOSED_CAPTION",
-            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
-          },
-          {
-            "language": "en",
-            "captionType": "CLOSED_CAPTION",
-            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
-          }
-        ]
-      }
-    },
-   {
-      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-      "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
-      "releaseDate": "2020-01-17",
-      "genres": ["educational"],
-      "tags": ["feature"],
-      "id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
-      "shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-      "title": "Voice Features",
-      "content": {
-        "duration": 0,
-        "videos": [
-          {
-            "videoType": "MP4",
-            "url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.mp4",
-            "quality": "HD"
-          }
-        ],
-        "language": "en-us",
-        "dateAdded": "2020-01-29T02:39:12Z",
-        "captions": [
-          {
-            "language": "en",
-            "captionType": "CLOSED_CAPTION",
-            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
-          },
-          {
-            "language": "en",
-            "captionType": "CLOSED_CAPTION",
-            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"		  
-          }
-        ]
-      }
-    }
-  ],
+      			"longDescription": " ",////primeiro item
+			"thumbnail": "https://image.roku.com/ZHZscHItMTc2/streaming-overview.jpg",
+			"releaseDate": "2020-01-15",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"getting-started"
+			],
+			"id": "shortform-roku-streaming-overview",
+			"shortDescription": "CONTEÚDO ADICIONADOS TODOS OS DIAS",
+			"title": "SBT HD",
+			"content": {
+				"duration": 0,
+				"videos": [{
+					"videoType": "m3u8",
+					"url": "https://image.roku.com/ZHZscHItMTc2/roku-streaming-overview-v3.mp4",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-15T02:39:11Z"
+			}
+		},
+		{
+			"longDescription": "	",////segundo item
+			"thumbnail": "https://image.roku.com/ZHZscHItMTc2/roku-overview.jpg",
+			"releaseDate": "2020-01-15",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"getting-started"
+			],
+			"id": "shortform-roku-development-overview",
+			"shortDescription": "CONTEÚDO ADICIONADOS TODOS OS DIAS",
+			"title": "TV CULTURA",
+			"content": {
+				"duration": 248,
+				"videos": [{
+					"videoType": "m3u8",
+					"url": "https://image.roku.com/ZHZscHItMTc2/roku-overview.mp4",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:11Z"
+			}
+		},
+		{
+			"longDescription": "	",////terceiro item
+			"thumbnail": "https://image.roku.com/ZHZscHItMTc2/enable-developer-mode-v1b.png",
+			"releaseDate": "2020-01-17",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"getting-started"
+			],
+			"id": "shortform-a893e770b636f6459dcf027fe361cd49d7ac44c2",
+			"shortDescription": "CONTEÚDO ADICIONADOS TODOS OS DIAS",
+			"title": "TV BRASIL",
+			"content": {
+				"duration": 0,
+				"videos": [{
+					"videoType": "m3u8",
+					"url": "https://ovp-selector.sr.roku.com/v1/12cdcf33-58e7-46a6-bbbf-cbb5c5fec500?format=dash",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:11Z"
+			}
+		},
+			{
+			"longDescription": "	",////quarto item
+			"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
+			"releaseDate": "2020-01-17",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"feature"
+			],
+			"id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
+			"shortDescription": "CONTEÚDO ADICIONADOS TODOS OS DIAS",
+			"title": "Voice Features",
+			"content": {
+				"duration": 0,
+				"videos": [{
+					"videoType": "m3u8",
+					"url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.mp4",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:12Z",
+				"captions": [{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
+					},
+					{
+						"language": "en",
+						"captionType": "CLOSED_CAPTION",
+						"url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
+					}
+				]
+			}
+		}
+	],
   "CANAIS INFANTIL": [
     {
       "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
@@ -132,7 +171,7 @@
       }
     }
   ],
-  "FILMES é SERIES": [
+  "FILMES e SERIES": [
     {
       "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
       "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
