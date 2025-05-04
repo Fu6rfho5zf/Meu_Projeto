@@ -48,8 +48,140 @@
       }
     }
   ],
-  "TV ABERTA": [
-    {
+  "CANAIS INFANTIS": [{
+	"longDescription": "GLOOB EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://i.imgur.com/N1BUULh.png",
+      "releaseDate": "2025-05-04",
+      "genres": ["INFANTIL"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "GLOOB",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/827",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    },
+	{
+	"longDescription": "TV GLOOBINHO EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://i.imgur.com/UWkHErt.png",
+      "releaseDate": "2025-05-04",
+      "genres": ["INFANTIL"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "TV GLOOBINHO",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/828",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    },
+	{
+	"longDescription": "CARTON NETWORK EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png",
+      "releaseDate": "2025-05-04",
+      "genres": ["INFANTIL"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "CARTON NETWORK",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/80558",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    },
+	{
+	"longDescription": "CARTOONITO EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/512px-Cartoonito_-_Logo_2021.svg.png",
+      "releaseDate": "2025-05-04",
+      "genres": ["INFANTIL"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "CARTOONITO",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/822",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    },
+	{
+	"longDescription": "NICKELODEON EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/512px-Nickelodeon_2009_logo.svg.png",
+      "releaseDate": "2025-05-04",
+      "genres": ["INFANTIL"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "CARTOONITO",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/822",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    },
+	{
+	"longDescription": "NICK JR EM ALTA DEFINIÇÃO",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/512px-Cartoonito_-_Logo_2021.svg.png",
+      "releaseDate": "2025-05-04",
+      "genres": ["INFANTIL"],
+      "tags": ["demo"],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "CARTOONITO",
+      "content": {
+        "duration": 0,
+        "videos": [
+          {
+            "videoType": "m3u8",
+            "url": "http://dnsxsjd.space:80/DzDEjYy6Xmn/XX1ITQWeI7V/822",
+            "quality": "FHD"
+          }
+        ],
+        "language": "pt-br",
+        "dateAdded": "2025-05-04T02:39:11Z"
+      }
+    }
+  ],
+  "TV ABERTA": [{
       "longDescription": "SBT EM ALTA DEFINIÇÃO",
       "thumbnail": "https://i.imgur.com/tc1ALuu.png",
       "releaseDate": "2025-05-04",
