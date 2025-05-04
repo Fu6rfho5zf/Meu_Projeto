@@ -181,28 +181,7 @@
       }
     },
 	{
-	"longDescription": "NICKELODEON EM ALTA DEFINIÇÃO",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/512px-Nickelodeon_2009_logo.svg.png",
-      "releaseDate": "2025-05-04",
-      "genres": ["INFANTIL"],
-      "tags": ["demo"],
-      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
-      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
-      "title": "CARTOONITO",
-      "content": {
-        "duration": 0,
-        "videos": [
-          {
-            "videoType": "m3u8",
-            "url": "http://1.asdrtp.live:8080/play/PeM88zS6pFIK1wnxe-SqZGwWVT4MgXp-2egXvwqG0Mk",
-            "quality": "FHD"
-          }
-        ],
-        "language": "pt-br",
-        "dateAdded": "2025-05-04T02:39:11Z"
-      }
-    },
-	{
+	
   ],
   "TV ABERTA": [{
       "longDescription": "SBT EM ALTA DEFINIÇÃO",
