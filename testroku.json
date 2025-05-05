@@ -194,7 +194,7 @@
         "videos": [
           {
             "videoType": "m3u8",
-            "url": "http://1.asdrtp.live:8080/play/PeM88zS6pFIK1wnxe-SqZI8nA3ROmafOvBFKW8iVI-U",
+            "url": "https://livcdn.website/discoverykids/tracks-v1a1/index.m3u8?token=753463318edd14717791a6b2d689aa1ad7acacc0-ec2568959462ef37c9600aed7bb7b18e-1746432736-1746421936&remote=191.178.176.142",
             "quality": "FHD"
           }
         ],
