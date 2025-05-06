@@ -56,13 +56,13 @@
       "tags": ["demo"],
       "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
       "shortDescription": "CRÉDITO AO @DANIELz.exe",
-      "title": "GLOOB",
+      "title": "GLOOBb",
       "content": {
         "duration": 0,
         "videos": [
           {
             "videoType": "m3u8",
-            "url": "https://s2.fazoeli.fun/token/ea6a40ad4d63f306912f1b66b0f09e3f/embedtv.m3u8",
+            "url": "https://fazoeli.fun/token/117d4b20165ea589631b765cc86adb17/embedtv.m3u8",
             "quality": "FHD"
           }
         ],
