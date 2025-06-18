@@ -1,0 +1,19 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="DiscoveryKids.br" tvg-name="Discovery Kids HD" tvg-logo="https://raphmx00.com/discoverykids.png" group-title="Canais | Infantil",Discovery Kids HD
+http://kabra22.com:80/liloiptv/lilo10iptv/83199
+#EXTINF:-1 tvg-id="Gloob.br" tvg-name="Gloob HD" tvg-logo="https://raphmx00.com/gloob.png" group-title="Canais | Infantil",Gloob HD
+http://kabra22.com:80/liloiptv/lilo10iptv/83221
+#EXTINF:-1 tvg-id="Nickelodeon.br" tvg-name="Nickelodeon HD" tvg-logo="https://raphmx00.com/nickelodeon.png" group-title="Canais | Infantil",Nickelodeon HD
+http://kabra22.com:80/liloiptv/lilo10iptv/83241
+#EXTINF:-1 tvg-id="ZooMoo.sg" tvg-name="Zoomoo FHD [Alt]" tvg-logo="https://raphmx00.com/zoomoo.png" group-title="Canais | Infantil",Zoomoo FHD [Alt]
+http://kabra22.com:80/liloiptv/lilo10iptv/147531
+#EXTINF:-1 tvg-id="ZooMoo.sg" tvg-name="Zoomoo HD [Alt]" tvg-logo="https://raphmx00.com/zoomoo.png" group-title="Canais | Infantil",Zoomoo HD [Alt]
+http://kabra22.com:80/liloiptv/lilo10iptv/83526
+#EXTINF:-1 group-title="Entretenimento",BBC ONE HD
+http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_hd.m3u8
+#EXTINF:-1 group-title="Entretenimento",BBC TWO HD
+http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_two_hd.m3u8
+#EXTINF:-1 group-title="Entretenimento",CBBC HD
+http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/cbbc.m3u8
+#EXTINF:-1 group-title="Entretenimento",CBEEBIES HD
+http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/cbeebies.m3u8v/ak/cbeebies.m3u8
