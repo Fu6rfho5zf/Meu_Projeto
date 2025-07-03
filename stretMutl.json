@@ -437,5 +437,32 @@
       ]
     }
   ],
-  "movies": []
+  "movies": [
+    {
+      "longDescription": "Learn how streaming works on the Roku platform. This video explains how content is delivered from a content delivery network (CDN) to a Roku device via a content feed",
+      "thumbnail": "https://image.roku.com/ZHZscHItMTc2/streaming-overview.jpg",
+      "releaseDate": "2020-01-15",
+      "genres": [
+        "educational"
+      ],
+      "tags": [
+        "getting-started"
+      ],
+      "id": "shortform-roku-streaming-overview",
+      "shortDescription": "Learn how streaming works on the Roku platform. This video explains how content is delivered from a content delivery network (CDN) to a Roku device via a content feed",
+      "title": "Streaming overview",
+      "content": {
+        "duration": 100,
+        "videos": [
+          {
+            "videoType": "MP4",
+            "url": "https://image.roku.com/ZHZscHItMTc2/roku-streaming-overview-v3.mp4",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-15T02:39:11Z"
+      }
+    }
+  ]
 }
