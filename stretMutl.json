@@ -439,29 +439,81 @@
   ],
   "movies": [
     {
-      "longDescription": "Learn how streaming works on the Roku platform. This video explains how content is delivered from a content delivery network (CDN) to a Roku device via a content feed",
-      "thumbnail": "https://image.roku.com/ZHZscHItMTc2/streaming-overview.jpg",
-      "releaseDate": "2020-01-15",
+      "longDescription": "This video demonstrates the Roku Remote Debugger, and it shows how the BrightScript network debug protocol could be used in an integration with an IDE such as Visual Studio Code.",
+      "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-b2500d7849ec949799cb1d5d0155c6f1eba3308a_1/images/roku-brightscript-network-debug-protocol.jpg",
+      "releaseDate": "2020-01-20",
       "genres": [
         "educational"
       ],
       "tags": [
-        "getting-started"
+        "demo"
       ],
-      "id": "shortform-roku-streaming-overview",
-      "shortDescription": "Learn how streaming works on the Roku platform. This video explains how content is delivered from a content delivery network (CDN) to a Roku device via a content feed",
-      "title": "Streaming overview",
+      "id": "shortform-b2500d7849ec949799cb1d5d0155c6f1eba3308a",
+      "shortDescription": "Demonstrates the Roku Remote Debugger",
+      "title": "BrightScript debug protocol",
       "content": {
-        "duration": 100,
+        "duration": 713,
         "videos": [
           {
             "videoType": "MP4",
-            "url": "https://image.roku.com/ZHZscHItMTc2/roku-streaming-overview-v3.mp4",
+            "url": "https://image.roku.com/ZHZscHItMTc2/roku-brightscript-debug-protocol.mp4",
             "quality": "HD"
           }
         ],
         "language": "en-us",
-        "dateAdded": "2020-01-15T02:39:11Z"
+        "dateAdded": "2020-01-29T02:39:11Z"
+      }
+    },
+    {
+      "longDescription": "Video that demonstrates the Roku automated channel testing software. It provides a brief overview of the technology stack, and it shows how both the Roku WebDriver and Robot Framework Library can be used for state-driven channel UI automation testing.",
+      "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4374be10035077242dde8b7fe272e509ad6e563a_1/images/basicTestReport.jpg",
+      "releaseDate": "2020-01-20",
+      "genres": [
+        "educational"
+      ],
+      "tags": [
+        "demo"
+      ],
+      "id": "shortform-4374be10035077242dde8b7fe272e509ad6e563a",
+      "shortDescription": "Demonstrates the Roku automated channel testing software.",
+      "title": "Automated channel testing",
+      "content": {
+        "duration": 713,
+        "videos": [
+          {
+            "videoType": "HLS",
+            "url": "https://ovp-selector.sr.roku.com/v1/f73763a9-8105-4b78-90e0-381ea0d0128b?format=hls",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-29T02:39:10Z"
+      }
+    },
+    {
+      "longDescription": "Video demonstrating how a developer can use the Developer Dashboard's user access management feature to give team members the authority to take administrative actions, which are appropriate for their respective organizational roles",
+      "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660_1/images/userManagementAccess.jpg",
+      "releaseDate": "2020-01-20",
+      "genres": [
+        "educational"
+      ],
+      "tags": [
+        "demo"
+      ],
+      "id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+      "shortDescription": "Demonstrates how a developer can use the Developer Dashboard's user access management feature",
+      "title": "Managing user access",
+      "content": {
+        "duration": 576,
+        "videos": [
+          {
+            "videoType": "HLS",
+            "url": "https://ovp-selector.sr.roku.com/v1/0c18bf4e-b295-437c-badb-3a171a1b52aa?format=hls",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-29T02:39:11Z"
       }
     }
   ]
