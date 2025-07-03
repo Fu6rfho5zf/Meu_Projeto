@@ -97,22 +97,34 @@
       "tags": [
         "getting-started"
       ],
-      "id": "shortform-roku-streaming-overview",
-      "shortDescription": "Learn how streaming works on the Roku platform. This video explains how content is delivered from a content delivery network (CDN) to a Roku device via a content feed",
-      "title": "Streaming overview",
-      "content": {
-        "duration": 100,
-        "videos": [
-          {
-            "videoType": "MP4",
-            "url": "https://image.roku.com/ZHZscHItMTc2/roku-streaming-overview-v3.mp4",
-            "quality": "HD"
-          }
+        "id": "gloob-hd",
+        "title": "Gloob HD",
+        "shortDescription": "Canal infantil com programação divertida para crianças.",
+        "longDescription": "O Gloob HD oferece uma programação variada de desenhos animados e séries educativas para o público infantil. Assista ao vivo diretamente pela plataforma.",
+        "tags": [
+          "infantil",
+          "canal",
+          "ao-vivo"
         ],
-        "language": "en-us",
-        "dateAdded": "2020-01-15T02:39:11Z"
+        "thumbnail": "https://logos.imperioapps.xyz/GLOOB.png",
+        "genres": [
+          "kids"
+        ],
+        "releaseDate": "2025-07-03",
+        "language": "pt-BR",
+        "content": {
+          "dateAdded": "2025-07-03T00:00:00Z",
+          "videos": [
+            {
+              "url": "http://aguacomgas.shop:80/426640855/797960121/152311.m3u8",
+              "quality": "HD",
+              "videoType": "HLS"
+            }
+          ],
+          "duration": 0,
+          "language": "pt-BR"
+        }
       }
-    }
   ],
   "CANAIS | FILMES & SÉRIES": [
     {
