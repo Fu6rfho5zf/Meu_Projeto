@@ -97,6 +97,93 @@
       "tags": [
         "getting-started"
       ],
+        "id": "cartoon-network-hd",
+        "title": "Cartoon Network HD",
+        "shortDescription": "Desenhos animados e séries para todas as idades.",
+        "longDescription": "O Cartoon Network HD apresenta desenhos animados clássicos e modernos para crianças e adolescentes. Assista ao vivo em alta definição.",
+        "tags": [
+          "infantil",
+          "desenhos",
+          "ao-vivo"
+        ],
+        "thumbnail": "https://logos.imperioapps.xyz/CARTOON_NETWORK.png",
+        "genres": [
+          "kids"
+        ],
+        "releaseDate": "2025-07-03",
+        "language": "pt-BR",
+        "content": {
+          "dateAdded": "2025-07-03T00:00:00Z",
+          "videos": [
+            {
+              "url": "http://aguacomgas.shop:80/426640855/797960121/152308.m3u8",
+              "quality": "HD",
+              "videoType": "HLS"
+            }
+          ],
+          "duration": 0,
+          "language": "pt-BR"
+        }
+      },
+      {
+        "id": "cartoonito-hd",
+        "title": "Cartoonito HD",
+        "shortDescription": "Programação divertida e educativa para os pequenos.",
+        "longDescription": "O Cartoonito HD oferece conteúdos infantis voltados ao público pré-escolar com muita cor, música e diversão.",
+        "tags": [
+          "infantil",
+          "educativo",
+          "ao-vivo"
+        ],
+        "thumbnail": "http://aguacomgas.shop:80/images/daa34e6bb09cd0357a156dbc8a74498c.png",
+        "genres": [
+          "kids"
+        ],
+        "releaseDate": "2025-07-03",
+        "language": "pt-BR",
+        "content": {
+          "dateAdded": "2025-07-03T00:00:00Z",
+          "videos": [
+            {
+              "url": "http://aguacomgas.shop:80/426640855/797960121/152324.m3u8",
+              "quality": "HD",
+              "videoType": "HLS"
+            }
+          ],
+          "duration": 0,
+          "language": "pt-BR"
+        }
+      },
+      {
+        "id": "discovery-kids-hd",
+        "title": "Discovery Kids HD",
+        "shortDescription": "Aprendizado e diversão para crianças curiosas.",
+        "longDescription": "O Discovery Kids HD combina diversão com conhecimento em sua programação infantil, recheada de aventuras educativas.",
+        "tags": [
+          "infantil",
+          "educação",
+          "ao-vivo"
+        ],
+        "thumbnail": "https://logos.imperioapps.xyz/DISCOVERY_KIDS.png",
+        "genres": [
+          "kids"
+        ],
+        "releaseDate": "2025-07-03",
+        "language": "pt-BR",
+        "content": {
+          "dateAdded": "2025-07-03T00:00:00Z",
+          "videos": [
+            {
+              "url": "http://aguacomgas.shop:80/426640855/797960121/152330.m3u8",
+              "quality": "HD",
+              "videoType": "HLS"
+            }
+          ],
+          "duration": 0,
+          "language": "pt-BR"
+        }
+      },
+      {
         "id": "gloob-hd",
         "title": "Gloob HD",
         "shortDescription": "Canal infantil com programação divertida para crianças.",
@@ -117,6 +204,180 @@
           "videos": [
             {
               "url": "http://aguacomgas.shop:80/426640855/797960121/152311.m3u8",
+              "quality": "HD",
+              "videoType": "HLS"
+            }
+          ],
+          "duration": 0,
+          "language": "pt-BR"
+        }
+      },
+      {
+        "id": "gloobinho-hd",
+        "title": "Gloobinho HD",
+        "shortDescription": "O canal dos pequenos com programação segura e divertida.",
+        "longDescription": "Gloobinho HD é ideal para crianças de 2 a 5 anos, com conteúdos criativos, educativos e muito coloridos para o público infantil.",
+        "tags": [
+          "infantil",
+          "pré-escolar",
+          "ao-vivo"
+        ],
+        "thumbnail": "https://logos.imperioapps.xyz/GLOBINHO.png",
+        "genres": [
+          "kids"
+        ],
+        "releaseDate": "2025-07-03",
+        "language": "pt-BR",
+        "content": {
+          "dateAdded": "2025-07-03T00:00:00Z",
+          "videos": [
+            {
+              "url": "http://aguacomgas.shop:80/426640855/797960121/152314.m3u8",
+              "quality": "HD",
+              "videoType": "HLS"
+            }
+          ],
+          "duration": 0,
+          "language": "pt-BR"
+        }
+      },
+      {
+        "id": "nickjr-hd",
+        "title": "Nick JR HD",
+        "shortDescription": "Conteúdo educativo com os personagens que as crianças amam.",
+        "longDescription": "O Nick JR HD traz séries educativas, desenhos animados e muito aprendizado em forma de diversão para os pequenos.",
+        "tags": [
+          "infantil",
+          "aprendizado",
+          "ao-vivo"
+        ],
+        "thumbnail": "https://logos.imperioapps.xyz/NICK_JR.png",
+        "genres": [
+          "kids"
+        ],
+        "releaseDate": "2025-07-03",
+        "language": "pt-BR",
+        "content": {
+          "dateAdded": "2025-07-03T00:00:00Z",
+          "videos": [
+            {
+              "url": "http://aguacomgas.shop:80/426640855/797960121/152317.m3u8",
+              "quality": "HD",
+              "videoType": "HLS"
+            }
+          ],
+          "duration": 0,
+          "language": "pt-BR"
+        }
+      },
+      {
+        "id": "nickelodeon-hd",
+        "title": "Nickelodeon HD",
+        "shortDescription": "Diversão sem limites com séries e desenhos para todas as idades.",
+        "longDescription": "Nickelodeon HD é o canal perfeito para entretenimento infantil e juvenil, com séries famosas e muito humor para todas as idades.",
+        "tags": [
+          "infantil",
+          "juvenil",
+          "ao-vivo"
+        ],
+        "thumbnail": "https://logos.imperioapps.xyz/NICKELODEON.png",
+        "genres": [
+          "kids"
+        ],
+        "releaseDate": "2025-07-03",
+        "language": "pt-BR",
+        "content": {
+          "dateAdded": "2025-07-03T00:00:00Z",
+          "videos": [
+            {
+              "url": "http://aguacomgas.shop:80/426640855/797960121/223513.m3u8",
+              "quality": "HD",
+              "videoType": "HLS"
+            }
+          ],
+          "duration": 0,
+          "language": "pt-BR"
+        }
+      },
+      {
+        "id": "tooncast-hd",
+        "title": "Tooncast HD",
+        "shortDescription": "Desenhos clássicos para matar a saudade da infância.",
+        "longDescription": "Tooncast HD é o canal dos desenhos nostálgicos! Reviva clássicos da animação que marcaram gerações.",
+        "tags": [
+          "infantil",
+          "clássicos",
+          "ao-vivo"
+        ],
+        "thumbnail": "http://aguacomgas.shop:80/images/059d9154b587938959e154122a34c152.png",
+        "genres": [
+          "kids"
+        ],
+        "releaseDate": "2025-07-03",
+        "language": "pt-BR",
+        "content": {
+          "dateAdded": "2025-07-03T00:00:00Z",
+          "videos": [
+            {
+              "url": "http://aguacomgas.shop:80/426640855/797960121/152340.m3u8",
+              "quality": "HD",
+              "videoType": "HLS"
+            }
+          ],
+          "duration": 0,
+          "language": "pt-BR"
+        }
+      },
+      {
+        "id": "tv-ra-tim-bum-hd",
+        "title": "TV Ra Tim Bum HD",
+        "shortDescription": "Conteúdo cultural e educativo para crianças e famílias.",
+        "longDescription": "A TV Ra Tim Bum HD oferece uma programação rica em cultura, arte e diversão voltada ao público infantil.",
+        "tags": [
+          "infantil",
+          "cultural",
+          "ao-vivo"
+        ],
+        "thumbnail": "https://logos.imperioapps.xyz/TV_RA_TIM_BUM.png",
+        "genres": [
+          "kids"
+        ],
+        "releaseDate": "2025-07-03",
+        "language": "pt-BR",
+        "content": {
+          "dateAdded": "2025-07-03T00:00:00Z",
+          "videos": [
+            {
+              "url": "http://aguacomgas.shop:80/426640855/797960121/152327.m3u8",
+              "quality": "HD",
+              "videoType": "HLS"
+            }
+          ],
+          "duration": 0,
+          "language": "pt-BR"
+        }
+      },
+      {
+        "id": "zoomoo-hd",
+        "title": "ZooMoo HD",
+        "shortDescription": "Natureza, bichos e diversão para os pequenos.",
+        "longDescription": "ZooMoo HD é um canal infantil focado na vida animal e na natureza, ideal para despertar o amor pelos bichos desde cedo.",
+        "tags": [
+          "infantil",
+          "natureza",
+          "ao-vivo"
+        ],
+        "thumbnail": "https://logos.imperioapps.xyz/ZOOMOO.png",
+        "genres": [
+          "kids"
+        ],
+        "releaseDate": "2025-07-03",
+        "language": "pt-BR",
+        "content": {
+          "dateAdded": "2025-07-03T00:00:00Z",
+          "videos": [
+            {
+              "url": "http://aguacomgas.shop:80/426640855/797960121/152343.m3u8",
               "quality": "HD",
               "videoType": "HLS"
             }
@@ -266,4 +527,4 @@
       }
     }
   ]
-}
+            }
