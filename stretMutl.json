@@ -13,21 +13,1039 @@
       "tags": [
         "getting-started"
       ],
-      "id": "shortform-roku-streaming-overview",
-      "shortDescription": "44",
-      "title": "Streaming overview",
-      "content": {
-        "duration": 100,
-        "videos": [
-          {
-            "videoType": "MP4",
-            "url": "https://image.roku.com/ZHZscHItMTc2/roku-streaming-overview-v3.mp4",
-            "quality": "HD"
-          }
-        ],
-        "language": "en-us",
-        "dateAdded": "2020-01-15T02:39:11Z"
-      }
+        "id": "agro-canal",
+        "title": "Agro Canal",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/AGRO_CANAL.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127133.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "agro+",
+        "title": "Agro+",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/AGRO+.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127134.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "agrobrasil-tv",
+        "title": "AgroBrasil TV",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/AGROBRASILTV.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127135.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "canal-do-boi",
+        "title": "Canal do Boi",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/CANAL_DO_BOI.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127138.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "canal-rural-hd",
+        "title": "Canal Rural HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/CANALRURAL.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127139.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "central|top-tv-hd",
+        "title": "Central|Top TV HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/CENTRALTOPTV.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127140.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "dpa-fast",
+        "title": "DPA Fast",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://97j91.xyz/images/dpa.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/250243.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "futura-fhd",
+        "title": "Futura FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/FUTURA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127143.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "futura-hd",
+        "title": "Futura HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/FUTURA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127144.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "futura.br",
+        "title": "Futura SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/FUTURA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/236017.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "istv",
+        "title": "ISTV",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://www.istv.com.br/static/media/Logo_ISTV_Noticias_2023_2.552be53f26c3c92a251c.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/250247.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "malhação-fast",
+        "title": "Malhação Fast",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/6/61/MalhacaoFast_2024.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/250241.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "rbtv-hd",
+        "title": "RBTV HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/RBTV.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127150.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "rede-brasil-tv-hd",
+        "title": "Rede Brasil TV HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/REDEBRASIL.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127152.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "rede-minas",
+        "title": "Rede Minas",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/REDEMINAS.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127153.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "rede-tv-fhd",
+        "title": "Rede TV FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/REDE_TV.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127154.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "rede-tv-hd",
+        "title": "Rede TV HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/REDE_TV.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127156.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "rede-tv-sd",
+        "title": "Rede TV SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/REDE_TV.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127157.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "rede-tv!-|-tv-pantanal-mt",
+        "title": "Rede TV! | TV Pantanal MT",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/REDE_TV.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127159.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "sesctv",
+        "title": "SescTV",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/SESCTV.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127162.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "terra-viva-fhd",
+        "title": "Terra Viva FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TERRA_VIVA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127165.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "terra-viva-hd",
+        "title": "Terra Viva HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TERRA_VIVA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127166.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "terra-viva-sd",
+        "title": "Terra Viva SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TERRA_VIVA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/236018.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-brasil",
+        "title": "TV Brasil",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TV_BRASIL.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127171.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-brasil-2",
+        "title": "TV Brasil 2",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TV_BRASIL.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127170.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-camara",
+        "title": "TV Camara",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TV_CAMARA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127173.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-candides-mg",
+        "title": "TV Candides MG",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://97j91.xyz/images/tvcandides.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/272681.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-cultura-belém-do-pará",
+        "title": "TV Cultura Belém do Pará",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://www.portalcultura.com.br/themes/custom/themag_st/logo-dark-small.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/251424.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cultura.br",
+        "title": "TV Cultura FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/CULTURA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/151481.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cultura.br",
+        "title": "TV Cultura HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/CULTURA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/151482.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-cultura-sd",
+        "title": "TV Cultura SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/CULTURA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/236013.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-diario-fhd",
+        "title": "Tv Diario FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TV_DIARIO.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127174.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-diario-hd",
+        "title": "Tv Diario HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TV_DIARIO.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127175.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-diario-sd",
+        "title": "Tv Diario SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TV_DIARIO.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127176.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-diário-do-sertão",
+        "title": "TV Diário do Sertão",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TVDIARIODOSERTAO.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127178.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-gazeta-fhd",
+        "title": "TV Gazeta FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TV_GAZETA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127179.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-gazeta-hd",
+        "title": "TV Gazeta HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TV_GAZETA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127180.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-gazeta-sd",
+        "title": "TV Gazeta SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TV_GAZETA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/236019.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-justiça",
+        "title": "TV Justiça",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TV_JUSTICA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127182.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-meio-norte",
+        "title": "TV Meio Norte",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://aguacomgas.shop:80/images/c39c542217ff61de435119333d6dc33e.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/234069.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-senado",
+        "title": "TV Senado",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TV_SENADO.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127185.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tve-bahia",
+        "title": "TVE Bahia",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TVE_BAHIA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127186.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-a-crítica",
+        "title": "TV a Crítica",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TVACRITICA.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/798307.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-ws-hd",
+        "title": "TV WS HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://logos.imperioapps.xyz/TV_WS_HD.jpg",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/828241.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "tv-metropole-hd",
+        "title": "TV Metropole HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://logos.imperioapps.xyz/TV_METROPOLE.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/829588.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
     }
   ],
   "CANAIS | ESPORTE": [
@@ -319,7 +1337,7 @@
           "dateAdded": "2025-07-03T00:00:00Z",
           "videos": [
             {
-              "url": "http://aguacomgas.shop:80/426640855/797960121/152339.m3u8",
+              "url": "http://aguacomgas.shop:80/426640855/797960121/152340.m3u8",
               "quality": "HD",
               "videoType": "HLS"
             }
@@ -527,4 +1545,4 @@
       }
     }
   ]
-            }
+}
