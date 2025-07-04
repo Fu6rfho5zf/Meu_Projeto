@@ -13,1039 +13,21 @@
       "tags": [
         "getting-started"
       ],
-        "id": "agro-canal",
-        "title": "Agro Canal",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/AGRO_CANAL.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127133.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "agro+",
-        "title": "Agro+",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/AGRO+.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127134.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "agrobrasil-tv",
-        "title": "AgroBrasil TV",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/AGROBRASILTV.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127135.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "canal-do-boi",
-        "title": "Canal do Boi",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/CANAL_DO_BOI.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127138.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "canal-rural-hd",
-        "title": "Canal Rural HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/CANALRURAL.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127139.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "central|top-tv-hd",
-        "title": "Central|Top TV HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/CENTRALTOPTV.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127140.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "dpa-fast",
-        "title": "DPA Fast",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "http://97j91.xyz/images/dpa.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/250243.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "futura-fhd",
-        "title": "Futura FHD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/FUTURA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127143.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "futura-hd",
-        "title": "Futura HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/FUTURA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127144.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "futura.br",
-        "title": "Futura SD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/FUTURA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/236017.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "istv",
-        "title": "ISTV",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://www.istv.com.br/static/media/Logo_ISTV_Noticias_2023_2.552be53f26c3c92a251c.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/250247.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "malhação-fast",
-        "title": "Malhação Fast",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/6/61/MalhacaoFast_2024.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/250241.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "rbtv-hd",
-        "title": "RBTV HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/RBTV.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127150.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "rede-brasil-tv-hd",
-        "title": "Rede Brasil TV HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/REDEBRASIL.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127152.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "rede-minas",
-        "title": "Rede Minas",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/REDEMINAS.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127153.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "rede-tv-fhd",
-        "title": "Rede TV FHD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/REDE_TV.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127154.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "rede-tv-hd",
-        "title": "Rede TV HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/REDE_TV.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127156.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "rede-tv-sd",
-        "title": "Rede TV SD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/REDE_TV.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127157.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "rede-tv!-|-tv-pantanal-mt",
-        "title": "Rede TV! | TV Pantanal MT",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/REDE_TV.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127159.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "sesctv",
-        "title": "SescTV",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/SESCTV.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127162.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "terra-viva-fhd",
-        "title": "Terra Viva FHD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TERRA_VIVA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127165.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "terra-viva-hd",
-        "title": "Terra Viva HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TERRA_VIVA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127166.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "terra-viva-sd",
-        "title": "Terra Viva SD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TERRA_VIVA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/236018.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-brasil",
-        "title": "TV Brasil",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TV_BRASIL.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127171.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-brasil-2",
-        "title": "TV Brasil 2",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TV_BRASIL.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127170.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-camara",
-        "title": "TV Camara",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TV_CAMARA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127173.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-candides-mg",
-        "title": "TV Candides MG",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "http://97j91.xyz/images/tvcandides.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/272681.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-cultura-belém-do-pará",
-        "title": "TV Cultura Belém do Pará",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://www.portalcultura.com.br/themes/custom/themag_st/logo-dark-small.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/251424.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "cultura.br",
-        "title": "TV Cultura FHD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/CULTURA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/151481.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "cultura.br",
-        "title": "TV Cultura HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/CULTURA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/151482.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-cultura-sd",
-        "title": "TV Cultura SD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/CULTURA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/236013.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-diario-fhd",
-        "title": "Tv Diario FHD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TV_DIARIO.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127174.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-diario-hd",
-        "title": "Tv Diario HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TV_DIARIO.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127175.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-diario-sd",
-        "title": "Tv Diario SD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TV_DIARIO.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127176.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-diário-do-sertão",
-        "title": "TV Diário do Sertão",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TVDIARIODOSERTAO.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127178.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-gazeta-fhd",
-        "title": "TV Gazeta FHD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TV_GAZETA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127179.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-gazeta-hd",
-        "title": "TV Gazeta HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TV_GAZETA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127180.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-gazeta-sd",
-        "title": "TV Gazeta SD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TV_GAZETA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/236019.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-justiça",
-        "title": "TV Justiça",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TV_JUSTICA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127182.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-meio-norte",
-        "title": "TV Meio Norte",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "http://aguacomgas.shop:80/images/c39c542217ff61de435119333d6dc33e.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/234069.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-senado",
-        "title": "TV Senado",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TV_SENADO.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127185.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tve-bahia",
-        "title": "TVE Bahia",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TVE_BAHIA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127186.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-a-crítica",
-        "title": "TV a Crítica",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TVACRITICA.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/798307.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-ws-hd",
-        "title": "TV WS HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "http://logos.imperioapps.xyz/TV_WS_HD.jpg",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/828241.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-        "id": "tv-metropole-hd",
-        "title": "TV Metropole HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "http://logos.imperioapps.xyz/TV_METROPOLE.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/829588.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
+      "id": "shortform-roku-streaming-overview",
+      "shortDescription": "44",
+      "title": "Streaming overview",
+      "content": {
+        "duration": 100,
+        "videos": [
+          {
+            "videoType": "MP4",
+            "url": "https://image.roku.com/ZHZscHItMTc2/roku-streaming-overview-v3.mp4",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-15T02:39:11Z"
+      }
     }
   ],
   "CANAIS | ESPORTE": [
@@ -1444,21 +426,625 @@
       "tags": [
         "getting-started"
       ],
-      "id": "shortform-roku-streaming-overview",
-      "shortDescription": "Learn how streaming works on the Roku platform. This video explains how content is delivered from a content delivery network (CDN) to a Roku device via a content feed",
-      "title": "Streaming overview",
-      "content": {
-        "duration": 100,
-        "videos": [
-          {
-            "videoType": "MP4",
-            "url": "https://image.roku.com/ZHZscHItMTc2/roku-streaming-overview-v3.mp4",
-            "quality": "HD"
-          }
-        ],
-        "language": "en-us",
-        "dateAdded": "2020-01-15T02:39:11Z"
-      }
+        "id": "HBO.br",
+        "title": "HBO 1 FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126897.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBO.br",
+        "title": "HBO 1 HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126898.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBO.br",
+        "title": "HBO 1 SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126913.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "hbo2.br",
+        "title": "HBO 2 FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_2.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126890.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "hbo.family.br",
+        "title": "HBO 2 FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_2.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/416405.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "hbo.2.br",
+        "title": "HBO 2 HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_2.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126891.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "hbo2.br",
+        "title": "HBO 2 SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_2.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126893.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "hbo.family.br",
+        "title": "HBO Family FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_FAMILY.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/420379.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOFamily.br",
+        "title": "HBO Family HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_FAMILY.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126895.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "hbo.family.br",
+        "title": "HBO Family SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_FAMILY.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126896.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOMundi.br",
+        "title": "HBO Mundi FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_MUNDI.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126900.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOMundi.br",
+        "title": "HBO Mundi FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_MUNDI.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/422877.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOMundi.br",
+        "title": "HBO Mundi HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_MUNDI.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126901.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "hbo.mundi.br",
+        "title": "HBO Mundi SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_MUNDI.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126903.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOPlus.br",
+        "title": "HBO Plus+ FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_PLUS.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126905.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOPlus.br",
+        "title": "HBO Plus+ HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_PLUS.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126906.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "hbo.plus.br",
+        "title": "HBO Plus+ SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_PLUS.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126908.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOPop.br",
+        "title": "HBO Pop FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_POP.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126909.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOPop.br",
+        "title": "HBO Pop HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_POP.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126910.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOPop.br",
+        "title": "HBO Pop SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_POP.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126912.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "hbo.signature.br",
+        "title": "HBO Signature FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_SIGNATURE.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126914.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOSignature.br",
+        "title": "HBO Signature HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_SIGNATURE.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126915.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "hbo.signature.br",
+        "title": "HBO Signature SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_SIGNATURE.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126917.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOXtreme.br",
+        "title": "HBO Xtreme FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_XTREME.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126918.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOXtreme.br",
+        "title": "HBO Xtreme FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_XTREME.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/440469.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOXtreme.br",
+        "title": "HBO Xtreme HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_XTREME.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126919.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "HBOXtreme.br",
+        "title": "HBO Xtreme SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/HBO_XTREME.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/126920.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
     }
   ],
   "CANAIS | TELECINE ": [
@@ -1472,21 +1058,418 @@
       "tags": [
         "getting-started"
       ],
-      "id": "shortform-roku-streaming-overview",
-      "shortDescription": "Learn how streaming works on the Roku platform. This video explains how content is delivered from a content delivery network (CDN) to a Roku device via a content feed",
-      "title": "Streaming overview",
-      "content": {
-        "duration": 100,
-        "videos": [
-          {
-            "videoType": "MP4",
-            "url": "https://image.roku.com/ZHZscHItMTc2/roku-streaming-overview-v3.mp4",
-            "quality": "HD"
-          }
-        ],
-        "language": "en-us",
-        "dateAdded": "2020-01-15T02:39:11Z"
-      }
+      "id": "br#telecine-action-hd",
+        "title": "Telecine Action FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://logos.imperioapps.xyz/TCAction.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127014.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "br#telecine-action-hd",
+        "title": "Telecine Action HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://logos.imperioapps.xyz/TCAction.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127016.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "TelecineAction.br",
+        "title": "Telecine Action SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://logos.imperioapps.xyz/TCAction.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127017.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "br#telecine-cult-hd",
+        "title": "Telecine Cult FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCCult.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127018.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "br#telecine-cult-hd",
+        "title": "Telecine Cult HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCCult.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127020.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "TelecineCult.br",
+        "title": "Telecine Cult SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCCult.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127022.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "br#telecine-fun-hd",
+        "title": "Telecine Fun FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCFun.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127023.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "br#telecine-fun-hd",
+        "title": "Telecine Fun HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCFun.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127025.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "TelecineFun.br",
+        "title": "Telecine Fun SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCFun.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127028.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "br#telecine-pipoca-hd",
+        "title": "Telecine Pipoca FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCPipoca.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127029.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "br#telecine-pipoca-hd",
+        "title": "Telecine Pipoca HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCPipoca.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127031.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "TelecinePipoca.br",
+        "title": "Telecine Pipoca SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCPipoca.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127032.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "br#telecine-premium-hd",
+        "title": "Telecine Premium FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCPremium.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127033.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "br#telecine-premium-hd",
+        "title": "Telecine Premium HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCPremium.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127034.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "TelecinePremium.br",
+        "title": "Telecine Premium SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCPremium.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127036.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "br#telecine-touch-hd",
+        "title": "Telecine Touch FHD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCTouch.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127038.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "br#telecine-touch-hd",
+        "title": "Telecine Touch HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCTouch.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127039.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "TelecineTouch.br",
+        "title": "Telecine Touch SD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/TCTouch.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127041.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
     }
   ],
   "CANAIS | CINE SKY": [
@@ -1500,21 +1483,349 @@
       "tags": [
         "getting-started"
       ],
-      "id": "shortform-roku-streaming-overview",
-      "shortDescription": "Learn how streaming works on the Roku platform. This video explains how content is delivered from a content delivery network (CDN) to a Roku device via a content feed",
-      "title": "Streaming overview",
-      "content": {
-        "duration": 100,
-        "videos": [
-          {
-            "videoType": "MP4",
-            "url": "https://image.roku.com/ZHZscHItMTc2/roku-streaming-overview-v3.mp4",
-            "quality": "HD"
-          }
-        ],
-        "language": "en-us",
-        "dateAdded": "2020-01-15T02:39:11Z"
-      }
+        "id": "cine-sky-01_channel",
+        "title": "Cine Sky 01",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666226.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-02_channel",
+        "title": "Cine Sky 02",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666227.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-03_channel",
+        "title": "Cine Sky 03",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666228.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-04_channel",
+        "title": "Cine Sky 04",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666229.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-05_channel",
+        "title": "Cine Sky 05",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666230.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-06_channel",
+        "title": "Cine Sky 06",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666231.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-07_channel",
+        "title": "Cine Sky 07",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666232.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-08_channel",
+        "title": "Cine Sky 08",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666233.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-09_channel",
+        "title": "Cine Sky 09",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666234.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-10_channel",
+        "title": "Cine Sky 10",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666235.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-11_channel",
+        "title": "Cine Sky 11",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666236.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-12_channel",
+        "title": "Cine Sky 12",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666237.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-13_channel",
+        "title": "Cine Sky 13",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666238.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-14_channel",
+        "title": "Cine Sky 14",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666239.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    },
+    {
+        "id": "cine-sky-15_channel",
+        "title": "Cine Sky 15",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "http://www.fontedecanais.org/logos/canais/cinesky.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/1666240.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
     }
   ],
   "CANAIS | 24 HORAS": [
