@@ -3,147 +3,99 @@
   "language": "pt-BR",
   "lastUpdated": "2025-06-03T02:01:00+02:00",
   "CANAIS ABERTO": [
-{
-        "id": "sbt.br",
-        "title": "SBT HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/sbt.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127313.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
+    {
+      "id": "sbt.br",
+      "title": "SBT HD",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": [],
+      "thumbnail": "https://logos.imperioapps.xyz/sbt.png",
+      "genres": [],
+      "releaseDate": "",
+      "language": "pt-BR",
+      "content": {
+        "dateAdded": "",
+        "videos": [
+          {
+            "url": "http://aguacomgas.shop:80/426640855/797960121/127313.m3u8",
+            "quality": "HD",
+            "videoType": "HLS"
+          }
+        ],
+        "duration": 0,
+        "language": "pt-BR"
+      }
     },
     {
-        "id": "globo.nordeste.br",
-        "title": "Globo Nordeste HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/globo.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/153511.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
+      "id": "globo.nordeste.br",
+      "title": "Globo Nordeste HD",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": [],
+      "thumbnail": "https://logos.imperioapps.xyz/globo.png",
+      "genres": [],
+      "releaseDate": "",
+      "language": "pt-BR",
+      "content": {
+        "dateAdded": "",
+        "videos": [
+          {
+            "url": "http://aguacomgas.shop:80/426640855/797960121/153511.m3u8",
+            "quality": "HD",
+            "videoType": "HLS"
+          }
+        ],
+        "duration": 0,
+        "language": "pt-BR"
+      }
     },
     {
-        "id": "tv-brasil_channel",
-        "title": "TV Brasil",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/TV_BRASIL.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127171.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
+      "id": "tv-brasil_channel",
+      "title": "TV Brasil",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": [],
+      "thumbnail": "https://logos.imperioapps.xyz/TV_BRASIL.png",
+      "genres": [],
+      "releaseDate": "",
+      "language": "pt-BR",
+      "content": {
+        "dateAdded": "",
+        "videos": [
+          {
+            "url": "http://aguacomgas.shop:80/426640855/797960121/127171.m3u8",
+            "quality": "HD",
+            "videoType": "HLS"
+          }
+        ],
+        "duration": 0,
+        "language": "pt-BR"
+      }
     },
     {
-        "id": "rede-brasil-tv-hd_channel",
-        "title": "Rede Brasil TV HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/REDEBRASIL.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127152.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    },
-    {
-    "id": "tv-cultura-belém-do-pará_channel",
-        "title": "TV Cultura",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://www.portalcultura.com.br/themes/custom/themag_st/logo-dark-small.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/251424.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
+      "id": "rede-brasil-tv-hd_channel",
+      "title": "Rede Brasil TV HD",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": [],
+      "thumbnail": "https://logos.imperioapps.xyz/REDEBRASIL.png",
+      "genres": [],
+      "releaseDate": "",
+      "language": "pt-BR",
+      "content": {
+        "dateAdded": "",
+        "videos": [
+          {
+            "url": "http://aguacomgas.shop:80/426640855/797960121/127152.m3u8",
+            "quality": "HD",
+            "videoType": "HLS"
+          }
+        ],
+        "duration": 0,
+        "language": "pt-BR"
+      }
     }
   ],
-  "CANAIS | ESPORTE": [
-{
-        "id": "sbt.br",
-        "title": "SBT HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/sbt.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127313.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    }
-],
   "CANAIS | FILMES & SÉRIES": [
     {
       "longDescription": "Learn how streaming works on the Roku platform. This video explains how content is delivered from a content delivery network (CDN) to a Roku device via a content feed",
@@ -464,31 +416,6 @@
       }
     }
   ],
-  "CANAIS | DOCUMENTÁRIOS": [
-{
-        "id": "sbt.br",
-        "title": "SBT HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/sbt.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127313.m3u8",
-                    "quality": "HD",
-                    "videoType": "HLS"
-                }
-            ],
-            "duration": 0,
-            "language": "pt-BR"
-        }
-    }
-  ],
   "CANAIS | HBO": [
     {
       "id": "HBO.br",
@@ -674,22 +601,5 @@
         "language": "pt-BR"
       }
     }
-  ],
-  "CANAIS | TELECINE ": [
-{
-        "id": "sbt.br",
-        "title": "SBT HD",
-        "shortDescription": "",
-        "longDescription": "",
-        "tags": [],
-        "thumbnail": "https://logos.imperioapps.xyz/sbt.png",
-        "genres": [],
-        "releaseDate": "",
-        "language": "pt-BR",
-        "content": {
-            "dateAdded": "",
-            "videos": [
-                {
-                    "url": "http://aguacomgas.shop:80/426640855/797960121/127313.m3u8",
-                    "quality": "HD",
-                    "videoTyp
+  ]
+}
