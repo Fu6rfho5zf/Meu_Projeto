@@ -119,7 +119,31 @@
         }
     }
   ],
-  "CANAIS | ESPORTE": [],
+  "CANAIS | ESPORTE": [
+{
+        "id": "sbt.br",
+        "title": "SBT HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/sbt.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127313.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    }
+],
   "CANAIS | FILMES & SÉRIES": [
     {
       "longDescription": "Learn how streaming works on the Roku platform. This video explains how content is delivered from a content delivery network (CDN) to a Roku device via a content feed",
@@ -440,7 +464,31 @@
       }
     }
   ],
-  "CANAIS | DOCUMENTÁRIOS": [],
+  "CANAIS | DOCUMENTÁRIOS": [
+{
+        "id": "sbt.br",
+        "title": "SBT HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/sbt.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127313.m3u8",
+                    "quality": "HD",
+                    "videoType": "HLS"
+                }
+            ],
+            "duration": 0,
+            "language": "pt-BR"
+        }
+    }
+  ],
   "CANAIS | HBO": [
     {
       "id": "HBO.br",
@@ -627,7 +675,21 @@
       }
     }
   ],
-  "CANAIS | TELECINE ": [],
-  "CANAIS | CINE SKY": [],
-  "CANAIS | 24 HORAS": []
-    }
+  "CANAIS | TELECINE ": [
+{
+        "id": "sbt.br",
+        "title": "SBT HD",
+        "shortDescription": "",
+        "longDescription": "",
+        "tags": [],
+        "thumbnail": "https://logos.imperioapps.xyz/sbt.png",
+        "genres": [],
+        "releaseDate": "",
+        "language": "pt-BR",
+        "content": {
+            "dateAdded": "",
+            "videos": [
+                {
+                    "url": "http://aguacomgas.shop:80/426640855/797960121/127313.m3u8",
+                    "quality": "HD",
+                    "videoTyp
