@@ -232,7 +232,7 @@
         "dateAdded": "2025-07-03T00:00:00Z",
         "videos": [
           {
-            "url": "http://aguacomgas.shop:80/426640855/797960121/152311.m3u8",
+            "url": "http://detran.sbs:80/alanfr/PD4237/136.ts",
             "quality": "HD",
             "videoType": "HLS"
           }
