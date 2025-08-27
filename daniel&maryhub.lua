@@ -8,7 +8,7 @@ local arquivo = pasta.."/save"
 local temaSalvo = "Preto"
 
 -- URLs da logo e versão
-local logoURL = "https://raw.githubusercontent.com/Fu6rfho5zf/TvR/refs/heads/main/new_logo.png"
+local logoURL = "https://raw.githubusercontent.com/Fu6rfho5zf/Meu_Projeto/refs/heads/main/DeM.jpg"
 local logoVersionURL = "https://raw.githubusercontent.com/Fu6rfho5zf/Meu_Projeto/refs/heads/main/logo_version.txt"
 
 -- Caminhos locais
@@ -763,4 +763,5 @@ miniIcon.MouseButton1Click:Connect(function()
     minimized=false
     mainFrame.Visible=true
     miniIcon.Visible=false
+
 end)
