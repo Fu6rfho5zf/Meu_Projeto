@@ -493,3 +493,4 @@ miniIcon.MouseButton1Click:Connect(function()
     miniIcon.Visible=false
 end)
 
+
