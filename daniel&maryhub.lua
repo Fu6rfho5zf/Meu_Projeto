@@ -650,7 +650,7 @@ end)
 -- ================== SISTEMA DE KEYS ==================
 local jogos = {
     ["99 Noite na Floresta"] = {
-        {"SOLUNA  | STATUS  🟢 ESTÁVEL", "https://raw.githubusercontent.com/endoverdosing/Soluna-API/refs/heads/main/99-Nights-in-the-Forest.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/99nights_key_validation.txt", "/storage/emulated/0/Delta/Workspace/99nights_key_validation.txt"},
+        {"SOLUNA  | STATUS  🟢 ESTÁVEL", "https://raw.githubusercontent.com/endoverdosing/Soluna-API/refs/heads/main/99-Nights-in-the-Forest.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/99nights_key_validation.txt", "/storage/emulated/0/Delta/Workspace/"},
         {"VOIDWARE  | STATUS  🔵 PERFEITO", "https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua"}, -- sem key
         {"RAYFIELD  | STATUS  🔵 PERFEITO", "https://raw.githubusercontent.com/Iliankytb/Iliankytb/main/Best99NightsInTheForest"}, -- sem key
         {"H4xSCRIPTS  | STATUS  🟠 FRACO ", "https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/KEY%20H4xScripts.txt", "/storage/emulated/0/Delta/Workspace/H4xScripts/Key.txt"},    
