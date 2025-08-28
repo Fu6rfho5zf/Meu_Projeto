@@ -120,19 +120,19 @@ roundify(barra, 12)
 local etapas
 if primeiraVez then
     etapas = {
-        "📥 BAIXANDO OS SCRIPTS...!",
-        "🖼️ BAIXANDO AS IMAGENS...!",
-        "📂 BAIXANDO OS ARQUIVOS...!",
-        "🔑 BAIXANDO AS KEY...!",
-        "✅ DOWNLOAD CONCLUÍDO...!"
+        "📥 🅑🅐🅘🅧🅐🅝🅓🅞 🅞🅢 🅢🅒🅡🅘🅟🅣🅢...!",
+        "🖼️ 🅑🅐🅘🅧🅐🅝🅓🅞 🅐🅢 🅘🅜🅐🅖🅔🅝🅢...!",
+        "📂 🅑🅐🅘🅧🅐🅝🅓🅞 🅞🅢 🅐🅡🅠🅤🅘🅥🅞🅢...!",
+        "🔑 🅑🅐🅘🅧🅐🅝🅓🅞 🅐🅢 🅚🅔🅨...!",
+        "✅ 🅓🅞🅦🅝🅛🅞🅐🅓 🅒🅞🅝🅒🅛🅤Í🅓🅞...!"
     }
 else
     etapas = {
-        "📝 CARREGANDO OS SCRIPTS...!",
-        "🎨 CARREGANDO AS IMAGENS...!",
-        "💾 CARREGANDO OS ARQUIVOS...!",
-        "🗝️ CARREGANDO AS KEY...!",
-        "🎉 CONCLUÍDO COM SUCESSO...!"
+    "📝  CARREGANDO OS SCRIPTS... ✨",
+    "🎨  CARREGANDO AS IMAGENS... 🖼️",
+    "💾  CARREGANDO OS ARQUIVOS... 📂",
+    "🗝️  CARREGANDO AS CHAVES... 🔑",
+    "🎉  CONCLUÍDO COM SUCESSO...! ✅"
     }
 end
 
@@ -206,10 +206,12 @@ screenGui.Name = "MeuHub"
 screenGui.ResetOnSpawn = false
 screenGui.Parent = playerGui
 
+-- Criando o Frame Principal
 local mainFrame = Instance.new("Frame")
-mainFrame.Size = UDim2.new(0, 500, 0, 350)
-mainFrame.Position = UDim2.new(0.25, 0, 0.10, 0) -- Subindo o menu um pouco mais
-mainFrame.BackgroundColor3 = Color3.fromRGB(30,30,30)
+mainFrame.AnchorPoint = Vector2.new(0.5, 0.5) -- ancora no centro
+mainFrame.Size = UDim2.new(0, 500, 1, -80)   -- largura fixa 500px, altura adaptada (tela - 100px)
+mainFrame.Position = UDim2.new(0.5, 0, 0.5, 0) -- centralizado no meio
+mainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 mainFrame.Active = true
 mainFrame.Draggable = false
 mainFrame.Parent = screenGui
@@ -260,7 +262,7 @@ local titleText = Instance.new("TextLabel")
 titleText.Size = UDim2.new(1,-70,1,0)
 titleText.Position = UDim2.new(0,10,0,0)
 titleText.BackgroundTransparency = 1
-titleText.Text = "🎈 DANIEL & MARY HUB  🤡🤙"
+titleText.Text = "🎈 DANIEL & MARY HUB  🤡  🤙"
 titleText.Font = Enum.Font.SourceSansBold
 titleText.TextSize = 18
 titleText.TextColor3 = Color3.new(1,1,1)
@@ -290,17 +292,19 @@ closeBtn.Parent = titleBar
 roundify(closeBtn, 6)
 
 -- ================== MINI ÍCONE ==================
+-- ================== MINI ICON ==================
 local miniIcon = Instance.new("ImageButton")
 miniIcon.Size = UDim2.new(0,40,0,40)
-miniIcon.AnchorPoint = Vector2.new(1,0) -- direita
-miniIcon.Position = UDim2.new(1,10,0,-15) -- margem direita 10px, topo 5px
+miniIcon.AnchorPoint = Vector2.new(0,0) -- âncora canto superior esquerdo
+miniIcon.Position = UDim2.new(0, 170, 0, -44) -- alinhado na mesma linha do chat
 miniIcon.BackgroundColor3 = Color3.fromRGB(45,45,45)
-miniIcon.Visible = true
+miniIcon.Visible = false -- começa invisível (menu aberto)
 miniIcon.Parent = screenGui
 miniIcon.Active = true
 miniIcon.Draggable = true
 roundify(miniIcon, 10)
 
+-- Função para setar a imagem do ícone
 local function setMiniIconImage()
     if isfile and getcustomasset and isfile(caminhoLogo) then
         miniIcon.Image = getcustomasset(caminhoLogo)
@@ -773,15 +777,18 @@ closeBtn.MouseButton1Click:Connect(function()
     screenGui:Destroy()
 end)
 
-local minimized=false
-minimizeBtn.MouseButton1Click:Connect(function()
-    minimized=not minimized
-    mainFrame.Visible=not minimized
-    miniIcon.Visible=minimized
-end)
-miniIcon.MouseButton1Click:Connect(function()
-    minimized=false
-    mainFrame.Visible=true
-    miniIcon.Visible=false
+local minimized = false
 
+-- Botão de minimizar
+minimizeBtn.MouseButton1Click:Connect(function()
+    minimized = not minimized
+    mainFrame.Visible = not minimized
+    miniIcon.Visible = minimized
+end)
+
+-- Botão de restaurar pelo mini ícone
+miniIcon.MouseButton1Click:Connect(function()
+    minimized = false
+    mainFrame.Visible = true
+    miniIcon.Visible = false
 end)
