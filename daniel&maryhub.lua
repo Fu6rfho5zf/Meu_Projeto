@@ -291,11 +291,11 @@ roundify(closeBtn, 6)
 
 -- ================== MINI ÍCONE ==================
 local miniIcon = Instance.new("ImageButton")
-miniIcon.Size = UDim2.new(0,40,0,40)  -- <--- Mude aqui para aumentar/diminuir
-miniIcon.AnchorPoint = Vector2.new(0.5, 0) -- Centraliza horizontalmente
-miniIcon.Position = UDim2.new(0.5, 0, 0, 0) -- Topo centralizado, margem 10px
+miniIcon.Size = UDim2.new(0,40,0,40)
+miniIcon.AnchorPoint = Vector2.new(1,0) -- direita
+miniIcon.Position = UDim2.new(1,10,0,-15) -- margem direita 10px, topo 5px
 miniIcon.BackgroundColor3 = Color3.fromRGB(45,45,45)
-miniIcon.Visible = false
+miniIcon.Visible = true
 miniIcon.Parent = screenGui
 miniIcon.Active = true
 miniIcon.Draggable = true
@@ -650,18 +650,13 @@ end)
 -- ================== SISTEMA DE KEYS ==================
 local jogos = {
     ["99 Noite na Floresta"] = {
-        {"SOLUNA  | STATUS  🟢 ESTÁVEL", "https://raw.githubusercontent.com/endoverdosing/Soluna-API/refs/heads/main/99-Nights-in-the-Forest.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/99nights_key_validation.txt", "/storage/emulated/0/Delta/Workspace/"},
-        {"VOIDWARE  | STATUS  🔵 PERFEITO", "https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua"}, -- sem key
-        {"RAYFIELD  | STATUS  🔵 PERFEITO", "https://raw.githubusercontent.com/Iliankytb/Iliankytb/main/Best99NightsInTheForest"}, -- sem key
-        {"H4xSCRIPTS  | STATUS  🟠 FRACO ", "https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/KEY%20H4xScripts.txt", "/storage/emulated/0/Delta/Workspace/H4xScripts/Key.txt"},    
+        -- Formato: {Nome Script, URL Script, URL Key, Caminho Local da Key, Download Automático (true/false)}
+        {"SOLUNA |STATUS|  🟢 ESTÁVEL", "https://raw.githubusercontent.com/endoverdosing/Soluna-API/refs/heads/main/99-Nights-in-the-Forest.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/99nights_key_validation.txt", "/storage/emulated/0/Delta/Workspace/99nights_key_validation.txt", true},
+        {"VOIDWARE |STATUS|  🔵 PERFEITO", "https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua"}, -- sem key
+        {"RAYFIELD |STATUS|  🔵 PERFEITO", "https://raw.githubusercontent.com/Iliankytb/Iliankytb/main/Best99NightsInTheForest"}, -- sem key
+        {"H4xSCRIPTS |STATUS|  ⚠️ CONEXÃO CRÍTICA", "https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/KEY%20H4xScripts.txt", "/storage/emulated/0/Delta/Workspace/H4xScripts/Key.txt", true},
     }
 }
-
---            🔵 PERFEITO
---            🟢 ESTÁVEL
---            🟡 MÉDIO 
---            🟠 FRACO 
---            🔴 OFFLINE
 
 -- Armazena keys já usadas por este jogador
 local usedKeys = {}
@@ -673,7 +668,6 @@ end
 
 -- Função para pegar uma key aleatória do arquivo
 local function getRandomKey(keyUrlPath, localSavePath, scriptName)
-    -- Se o jogador já tem key para esse script, retorna ela
     if usedKeys[scriptName] then
         return usedKeys[scriptName]
     end
@@ -687,19 +681,18 @@ local function getRandomKey(keyUrlPath, localSavePath, scriptName)
         table.insert(allKeys, line)
     end
 
-    -- Pega uma key aleatória
     if #allKeys > 0 then
         local index = math.random(1, #allKeys)
         local key = allKeys[index]
 
-        -- Remove a key usada do arquivo para que ninguém mais pegue
+        -- Remove a key usada do arquivo remoto
         table.remove(allKeys, index)
         writefile(keyUrlPath, table.concat(allKeys, "\n"))
 
-        -- Salva em memória para este jogador
+        -- Salva em memória
         usedKeys[scriptName] = key
 
-        -- Salva a mesma key no arquivo local especificado
+        -- Salva no arquivo local
         if localSavePath then
             local folder = localSavePath:match("(.+)/[^/]+$")
             if folder and not isfolder(folder) then
@@ -715,7 +708,33 @@ local function getRandomKey(keyUrlPath, localSavePath, scriptName)
     return nil
 end
 
--- Criar botões (exemplo de interface)
+-- Função para verificar se o arquivo da key existe e pegar ou baixar
+local function handleKey(keyUrl, localSavePath, scriptName, autoDownload)
+    if localSavePath and isfile(localSavePath) then
+        local key = readfile(localSavePath)
+        usedKeys[scriptName] = key
+        return key
+    elseif keyUrl and autoDownload then
+        -- Extrai nome do arquivo remoto
+        local keyFileName = getFileNameFromUrl(keyUrl)
+        local keyFolder = localSavePath:match("(.+)/[^/]+$")
+        if keyFolder and not isfolder(keyFolder) then
+            makefolder(keyFolder)
+        end
+        local keyUrlPath = keyFolder..keyFileName
+        if not isfile(keyUrlPath) then
+            local keyOnline = game:HttpGet(keyUrl)
+            writefile(keyUrlPath, keyOnline)
+            warn("Key baixada e salva temporariamente em: "..keyUrlPath)
+        end
+        return getRandomKey(keyUrlPath, localSavePath, scriptName)
+    else
+        warn("Arquivo da key não encontrado e download automático desativado para "..scriptName)
+        return nil
+    end
+end
+
+-- Criar botões
 for jogo, scripts in pairs(jogos) do
     createButton(gamesFrame, jogo.." Scripts", function()
         -- Limpa botões antigos
@@ -726,41 +745,24 @@ for jogo, scripts in pairs(jogos) do
         end
 
         for _, data in ipairs(scripts) do
-            local scriptName, url, keyUrl, localSavePath = data[1], data[2], data[3], data[4]
-            
+            local scriptName, url, keyUrl, localSavePath, autoDownload = data[1], data[2], data[3], data[4], data[5]
+
             createButton(scriptsFrame, scriptName, function()
+                local key = nil
                 if keyUrl and localSavePath then
-                    -- Extrai o nome do arquivo da URL remota
-                    local keyFileName = getFileNameFromUrl(keyUrl)
-                    local keyFolder = localSavePath:match("(.+)/[^/]+$")
-
-                    -- Cria a pasta da key, se não existir
-                    if keyFolder and not isfolder(keyFolder) then
-                        makefolder(keyFolder)
-                    end
-
-                    -- Baixa e salva a key se ainda não tiver
-                    local keyUrlPath = keyFolder..keyFileName
-                    if not isfile(keyUrlPath) then
-                        local keyOnline = game:HttpGet(keyUrl)
-                        writefile(keyUrlPath, keyOnline)
-                        warn("Key baixada e salva em: "..keyUrlPath)
-                    end
-
-                    -- Pega a key (uma por jogador) e salva no arquivo local
-                    local key = getRandomKey(keyUrlPath, localSavePath, scriptName)
-                    if key then
-                        warn("Usando key: "..key)
-                        loadstring(game:HttpGet(url))(key)
-                        return
-                    else
-                        warn("Não há keys disponíveis!")
+                    key = handleKey(keyUrl, localSavePath, scriptName, autoDownload)
+                    if not key then
+                        warn("Não foi possível executar o script "..scriptName.." sem a key!")
                         return
                     end
                 end
 
-                -- Executa o script direto se não tiver key
-                loadstring(game:HttpGet(url))()
+                -- Executa o script
+                if key then
+                    loadstring(game:HttpGet(url))(key)
+                else
+                    loadstring(game:HttpGet(url))()
+                end
             end)
         end
     end)
