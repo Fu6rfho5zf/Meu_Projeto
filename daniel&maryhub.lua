@@ -260,7 +260,7 @@ local titleText = Instance.new("TextLabel")
 titleText.Size = UDim2.new(1,-70,1,0)
 titleText.Position = UDim2.new(0,10,0,0)
 titleText.BackgroundTransparency = 1
-titleText.Text = "🎈 DANIEL & MARY HUB"
+titleText.Text = "🎈 DANIEL & MARY HUB  🤡🤙"
 titleText.Font = Enum.Font.SourceSansBold
 titleText.TextSize = 18
 titleText.TextColor3 = Color3.new(1,1,1)
@@ -377,7 +377,7 @@ local creditos = Instance.new("TextLabel")
 creditos.Size = UDim2.new(0.5,-10,1,0)
 creditos.Position = UDim2.new(0.5,0,0,0)
 creditos.BackgroundTransparency = 1
-creditos.Text = "Créditos: DANIEL ⚽ & MARY 📿"
+creditos.Text = "Créditos: DANIEL ⚽  & MARY 📿 "
 creditos.TextColor3 = Color3.fromRGB(200,200,200)
 creditos.Font = Enum.Font.SourceSansItalic
 creditos.TextSize = 14
@@ -650,12 +650,18 @@ end)
 -- ================== SISTEMA DE KEYS ==================
 local jogos = {
     ["99 Noite na Floresta"] = {
-        {"SOLUNA  | STATUS  🟢  ÓTIMO", "https://raw.githubusercontent.com/endoverdosing/Soluna-API/refs/heads/main/99-Nights-in-the-Forest.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/99nights_key_validation.txt", "/storage/emulated/0/Delta/Workspace/99nights_key_validation.txt"},
-        {"VOIDWARE  | STATUS  🟢 ÓTIMO", "https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua"}, -- sem key
-        {"RAYFIELD  | STATUS  🟢 ÓTIMO", "https://raw.githubusercontent.com/Iliankytb/Iliankytb/main/Best99NightsInTheForest"}, -- sem key
-        {"H4xSCRIPTS  | STATUS  🟠 PRESIMA", "https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/KEY%20H4xScripts.txt", "/storage/emulated/0/Delta/Workspace/H4xScripts/Key.txt"},    
+        {"SOLUNA  | STATUS  🟢 ESTÁVEL", "https://raw.githubusercontent.com/endoverdosing/Soluna-API/refs/heads/main/99-Nights-in-the-Forest.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/99nights_key_validation.txt", "/storage/emulated/0/Delta/Workspace/99nights_key_validation.txt"},
+        {"VOIDWARE  | STATUS  🔵 PERFEITO", "https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua"}, -- sem key
+        {"RAYFIELD  | STATUS  🔵 PERFEITO", "https://raw.githubusercontent.com/Iliankytb/Iliankytb/main/Best99NightsInTheForest"}, -- sem key
+        {"H4xSCRIPTS  | STATUS  🟠 FRACO ", "https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/KEY%20H4xScripts.txt", "/storage/emulated/0/Delta/Workspace/H4xScripts/Key.txt"},    
     }
 }
+
+--            🔵 PERFEITO
+--            🟢 ESTÁVEL
+--            🟡 MÉDIO 
+--            🟠 FRACO 
+--            🔴 OFFLINE
 
 -- Armazena keys já usadas por este jogador
 local usedKeys = {}
