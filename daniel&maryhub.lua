@@ -14,6 +14,19 @@ local logoVersionURL = "https://raw.githubusercontent.com/Fu6rfho5zf/Meu_Projeto
 -- Caminhos locais
 local caminhoLogo = pasta.."/D&M_logo.png"
 local versaoArquivo = pasta.."/logo_version.txt"
+-- 🌟 ADMIN COMANDOS AJUSTADOS 🌟 --
+
+-- Estado dos poderes dos jogadores
+local playerStates = {}
+
+-- Função que alterna um poder
+local function toggleState(plr, stateName)
+    if not playerStates[plr] then
+        playerStates[plr] = {}
+    end
+    playerStates[plr][stateName] = not playerStates[plr][stateName]
+    return playerStates[plr][stateName]
+end
 
 -- ================== FUNÇÃO ATUALIZAR LOGO ==================
 local function atualizarLogo()
@@ -208,9 +221,9 @@ screenGui.Parent = playerGui
 
 -- Criando o Frame Principal
 local mainFrame = Instance.new("Frame")
-mainFrame.AnchorPoint = Vector2.new(0.5, 0.5) -- ancora no centro
-mainFrame.Size = UDim2.new(0, 500, 1, -80)   -- largura fixa 500px, altura adaptada (tela - 100px)
-mainFrame.Position = UDim2.new(0.5, 0, 0.5, 0) -- centralizado no meio
+mainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+mainFrame.Size = UDim2.new(0, 500, 1, -30)
+mainFrame.Position = UDim2.new(0.5, 0, 0.38, 0) -- um pouco acima do centro
 mainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 mainFrame.Active = true
 mainFrame.Draggable = false
@@ -294,9 +307,14 @@ roundify(closeBtn, 6)
 -- ================== MINI ÍCONE ==================
 -- ================== MINI ICON ==================
 local miniIcon = Instance.new("ImageButton")
-miniIcon.Size = UDim2.new(0,40,0,40)
-miniIcon.AnchorPoint = Vector2.new(0,0) -- âncora canto superior esquerdo
-miniIcon.Position = UDim2.new(0, 170, 0, -44) -- alinhado na mesma linha do chat
+-- Define o tamanho do ícone (largura: 40px, altura: 40px)
+miniIcon.Size = UDim2.new(0,38,0,38)  
+-- Define o ponto de ancoragem no canto superior esquerdo (0,0)
+miniIcon.AnchorPoint = Vector2.new(0,0)  
+--0,170, e. posição adicionar mas número e pra direita meno o número vai pra esquerda 
+-- depois do 170,0,-44 e altura do icon
+miniIcon.Position = UDim2.new(0, 210, 0, -44)  
+-- Define a cor de fundo do ícone como um tom de cinza (RGB: 45,45,45)
 miniIcon.BackgroundColor3 = Color3.fromRGB(45,45,45)
 miniIcon.Visible = false -- começa invisível (menu aberto)
 miniIcon.Parent = screenGui
@@ -476,178 +494,274 @@ if corTemas[temaSalvo] then aplicarTema(corTemas[temaSalvo]) end
 
 -- ================== CATEGORIA CONFIGURAR ==================
 createButton(gamesFrame,"⚙️ Configurar",function()
-    -- Limpa os botões atuais
     for _,child in ipairs(scriptsFrame:GetChildren()) do
-        if child:IsA("TextButton") then child:Destroy() end
+        if child:IsA("TextButton") or child:IsA("Frame") then child:Destroy() end
     end
-    local y = 0
 
-    -- Botão Tema
-    local temaBtn = Instance.new("TextButton")
-    temaBtn.Size = UDim2.new(1,-10,0,35)
-    temaBtn.Position = UDim2.new(0,5,0,y)
-    temaBtn.BackgroundColor3 = Color3.fromRGB(80,80,80)
-    temaBtn.TextColor3 = Color3.new(1,1,1)
-    temaBtn.Text = "Tema: "..temaSalvo
-    temaBtn.Parent = scriptsFrame
-    roundify(temaBtn,8)
-    local atual = table.find(temas,temaSalvo) or 1
-    temaBtn.MouseButton1Click:Connect(function()
-        atual = (atual % #temas)+1
-        temaBtn.Text = "Tema: "..temas[atual]
-        temaSalvo = temas[atual]
-        aplicarTema(corTemas[temas[atual]])
-        if salvarAtivo and writefile and makefolder then
-            if not isfolder(pasta) then makefolder(pasta) end
-            writefile(arquivo,"Tema="..temaSalvo.."\nSalvar="..(salvarAtivo and "ON" or "OFF"))
-        end
-    end)
-    y = y + 40
+    local selectedPlayer = nil
 
-    -- Botão Salvar Dados
-    local salvarBtn = Instance.new("TextButton")
-    salvarBtn.Size = UDim2.new(1,-10,0,35)
-    salvarBtn.Position = UDim2.new(0,5,0,y)
-    salvarBtn.BackgroundColor3 = Color3.fromRGB(80,80,80)
-    salvarBtn.TextColor3 = Color3.new(1,1,1)
-    salvarBtn.Text = "SALVAR OS SEUS DADOS: " .. (salvarAtivo and "ON" or "OFF")
-    salvarBtn.Parent = scriptsFrame
-    roundify(salvarBtn,8)
-    salvarBtn.MouseButton1Click:Connect(function()
-        salvarAtivo = not salvarAtivo
-        salvarBtn.Text = "Salvar Dados: " .. (salvarAtivo and "ON" or "OFF")
-        if writefile and makefolder then
-            if not isfolder(pasta) then makefolder(pasta) end
-            writefile(arquivo,"Tema="..temaSalvo.."\nSalvar="..(salvarAtivo and "ON" or "OFF"))
-        end
-    end)
-    y = y + 40
+    ---------------------- [ LISTA DE PLAYERS ] ----------------------
+    local playerBtn = Instance.new("TextButton")
+    playerBtn.Size = UDim2.new(1,-10,0,35)
+    playerBtn.BackgroundColor3 = Color3.fromRGB(80,80,80)
+    playerBtn.TextColor3 = Color3.new(1,1,1)
+    playerBtn.Text = "🎮 Selecione Jogador"
+    playerBtn.Parent = scriptsFrame
+    roundify(playerBtn,8)
 
-    -- Botão Copiar Key (abre menu de jogos)
-    local copiarKeyBtn = Instance.new("TextButton")
-    copiarKeyBtn.Size = UDim2.new(1,-10,0,35)
-    copiarKeyBtn.Position = UDim2.new(0,5,0,y)
-    copiarKeyBtn.BackgroundColor3 = Color3.fromRGB(80,80,80)
-    copiarKeyBtn.TextColor3 = Color3.new(1,1,1)
-    copiarKeyBtn.Text = "📋 KEY AQUI, CASO SUA KEY NÃO FUNCIONA"
-    copiarKeyBtn.Parent = scriptsFrame
-    roundify(copiarKeyBtn,8)
-    y = y + 40
-
-    copiarKeyBtn.MouseButton1Click:Connect(function()
-        -- Limpa botões atuais
+    playerBtn.MouseButton1Click:Connect(function()
         for _,child in ipairs(scriptsFrame:GetChildren()) do
-            if child:IsA("TextButton") then child:Destroy() end
+            if child:IsA("TextButton") or child:IsA("Frame") then child:Destroy() end
         end
-        local y2 = 0
+        for _,plr in ipairs(game.Players:GetPlayers()) do
+            local plrBtn = Instance.new("TextButton")
+            plrBtn.Size = UDim2.new(1,-10,0,35)
+            plrBtn.BackgroundColor3 = Color3.fromRGB(90,90,90)
+            plrBtn.TextColor3 = Color3.new(1,1,1)
+            plrBtn.Text = "👤 "..plr.Name
+            plrBtn.Parent = scriptsFrame
+            roundify(plrBtn,8)
 
-        -- Lista de Jogos e Scripts
-        local jogos = {
-            ["99 Noite na Floresta"] = {
-                {nome="99 NOTS", keys={
-                    {"Key 1", {{"Meu Canal","youtube.com/@meucanal1"}, {"Meu DC","discord.gg/seulink1"}, {"YT","youtube.com/@meucanal1"}}},
-                    {"Key 2", {{"Meu Canal","youtube.com/@meucanal2"}, {"Meu DC","discord.gg/seulink2"}, {"YT","youtube.com/@meucanal2"}}},
-                }},
-                {nome="Segundo Script", keys={
-                    {"Key 1", {{"Meu Canal","youtube.com/@meucanal3"}, {"Meu DC","discord.gg/seulink3"}, {"YT","youtube.com/@meucanal3"}}},
-                }},
-            },
-            ["Bola da Morte"] = {
-                {nome="BOLAA SA MORTW SH", keys={
-                    {"Key 1", {{"Meu Canal","youtube.com/@meucanal4"}, {"Meu DC","discord.gg/seulink4"}, {"YT","youtube.com/@meucanal4"}}},
-                }},
-                {nome="BOLA SA MORTE SCRU2", keys={
-                    {"Key 1", {{"Meu Canal","youtube.com/@meucanal5"}, {"Meu DC","discord.gg/seulink5"}, {"YT","youtube.com/@meucanal5"}}},
-                }},
-            },
-        }
+            plrBtn.MouseButton1Click:Connect(function()
+                selectedPlayer = plr
+                createAdminMenu()
+            end)
+        end
+    end)
 
-        -- Cria botões dos jogos
-        for jogoNome, scripts in pairs(jogos) do
-            local jogoBtn = Instance.new("TextButton")
-            jogoBtn.Size = UDim2.new(1,-10,0,35)
-            jogoBtn.Position = UDim2.new(0,5,0,y2)
-            jogoBtn.BackgroundColor3 = Color3.fromRGB(80,80,80)
-            jogoBtn.TextColor3 = Color3.new(1,1,1)
-            jogoBtn.Text = jogoNome
-            jogoBtn.Parent = scriptsFrame
-            roundify(jogoBtn,8)
+    ---------------------- [ SLIDER NUMÉRICO ] ----------------------
+    local function createSlider(text, min, max, default, callback)
+        local frame = Instance.new("Frame")
+        frame.Size = UDim2.new(1,-10,0,50)
+        frame.BackgroundColor3 = Color3.fromRGB(60,60,60)
+        frame.Parent = scriptsFrame
+        roundify(frame,8)
 
-            jogoBtn.MouseButton1Click:Connect(function()
-                -- Limpa botões atuais
-                for _,child in ipairs(scriptsFrame:GetChildren()) do
-                    if child:IsA("TextButton") then child:Destroy() end
+        local label = Instance.new("TextLabel")
+        label.Size = UDim2.new(0.4,0,1,0)
+        label.Position = UDim2.new(0,5,0,0)
+        label.BackgroundTransparency = 1
+        label.Text = text..": "..default
+        label.TextColor3 = Color3.new(1,1,1)
+        label.Font = Enum.Font.SourceSansBold
+        label.TextSize = 16
+        label.TextXAlignment = Enum.TextXAlignment.Left
+        label.Parent = frame
+
+        local sliderBtn = Instance.new("TextButton")
+        sliderBtn.Size = UDim2.new(0.6,-10,0,30)
+        sliderBtn.Position = UDim2.new(0.4,5,0.5,-15)
+        sliderBtn.BackgroundColor3 = Color3.fromRGB(100,100,100)
+        sliderBtn.Text = tostring(default)
+        sliderBtn.TextColor3 = Color3.new(1,1,1)
+        sliderBtn.Parent = frame
+        roundify(sliderBtn,8)
+
+        local currentValue = default
+        sliderBtn.MouseButton1Click:Connect(function()
+            currentValue = currentValue + 5
+            if currentValue > max then currentValue = min end
+            label.Text = text..": "..currentValue
+            sliderBtn.Text = tostring(currentValue)
+            callback(currentValue)
+        end)
+    end
+
+    ---------------------- [ BOTÃO ADMIN ] ----------------------
+    local function createAdminButton(text, callback)
+        local btn = Instance.new("TextButton")
+        btn.Size = UDim2.new(1,-10,0,35)
+        btn.BackgroundColor3 = Color3.fromRGB(80,80,80)
+        btn.TextColor3 = Color3.new(1,1,1)
+        btn.Text = text
+        btn.Parent = scriptsFrame
+        roundify(btn,8)
+        btn.MouseButton1Click:Connect(callback)
+    end
+
+    ---------------------- [ MENU DE ADMIN ] ----------------------
+    function createAdminMenu()
+        for _,child in ipairs(scriptsFrame:GetChildren()) do
+            if child:IsA("TextButton") or child:IsA("Frame") then child:Destroy() end
+        end
+        if not selectedPlayer then return end
+
+        -- Sliders
+        createSlider("Velocidade",16,200,16,function(val)
+            if selectedPlayer.Character and selectedPlayer.Character:FindFirstChild("Humanoid") then
+                selectedPlayer.Character.Humanoid.WalkSpeed = val
+            end
+        end)
+
+        createSlider("Super Pulo",50,300,50,function(val)
+            if selectedPlayer.Character and selectedPlayer.Character:FindFirstChild("Humanoid") then
+                selectedPlayer.Character.Humanoid.JumpPower = val
+            end
+        end)
+
+        createSlider("Gravidade",50,300,196,function(val)
+            workspace.Gravity = val
+        end)
+
+        createSlider("Vida",1,500,100,function(val)
+            if selectedPlayer.Character and selectedPlayer.Character:FindFirstChild("Humanoid") then
+                selectedPlayer.Character.Humanoid.Health = val
+            end
+        end)
+
+        createSlider("Dano (Hit)",5,100,10,function(val)
+            _G.hitDamage = val
+        end)
+        
+        createAdminButton("🎯 Teleportar até ele",function()
+            local root = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+            local target = selectedPlayer.Character and selectedPlayer.Character:FindFirstChild("HumanoidRootPart")
+            if root and target then
+                root.CFrame = target.CFrame + Vector3.new(3,0,0)
+            end
+        end)
+
+--------------------------------------------------------
+-- NEON ON/OFF
+--------------------------------------------------------
+createAdminButton("🌈 Neon ON/OFF",function()
+    local enabled = toggleState(selectedPlayer,"Neon")
+    if selectedPlayer.Character then
+        for _,p in pairs(selectedPlayer.Character:GetChildren()) do
+            if p:IsA("BasePart") then
+                if enabled then
+                    p.Material = Enum.Material.Neon
+                    p.Color = Color3.fromRGB(math.random(0,255),math.random(0,255),math.random(0,255))
+                else
+                    p.Material = Enum.Material.Plastic
+                    p.Color = Color3.fromRGB(255,255,255)
                 end
-                local y3 = 0
-                -- Cria botões dos scripts
-                for _, scriptData in ipairs(scripts) do
-                    local scriptBtn = Instance.new("TextButton")
-                    scriptBtn.Size = UDim2.new(1,-10,0,35)
-                    scriptBtn.Position = UDim2.new(0,5,0,y3)
-                    scriptBtn.BackgroundColor3 = Color3.fromRGB(80,80,80)
-                    scriptBtn.TextColor3 = Color3.new(1,1,1)
-                    scriptBtn.Text = scriptData.nome
-                    scriptBtn.Parent = scriptsFrame
-                    roundify(scriptBtn,8)
+            end
+        end
+    end
+end)
 
-                    scriptBtn.MouseButton1Click:Connect(function()
-                        -- Limpa botões atuais
-                        for _,child in ipairs(scriptsFrame:GetChildren()) do
-                            if child:IsA("TextButton") then child:Destroy() end
-                        end
-                        local y4 = 0
-                        -- Cria botões das keys
-                        for _, keyData in ipairs(scriptData.keys) do
-                            local keyNome, links = keyData[1], keyData[2]
-                            local keyBtn = Instance.new("TextButton")
-                            keyBtn.Size = UDim2.new(1,-10,0,35)
-                            keyBtn.Position = UDim2.new(0,5,0,y4)
-                            keyBtn.BackgroundColor3 = Color3.fromRGB(80,80,80)
-                            keyBtn.TextColor3 = Color3.new(1,1,1)
-                            keyBtn.Text = keyNome
-                            keyBtn.Parent = scriptsFrame
-                            roundify(keyBtn,8)
+--------------------------------------------------------
+-- SEGUIR JOGADOR ON/OFF
+--------------------------------------------------------
+createAdminButton("📡 Seguir Jogador ON/OFF",function()
+    local enabled = toggleState(selectedPlayer,"Seguir")
+    local root = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+    local target = selectedPlayer.Character and selectedPlayer.Character:FindFirstChild("HumanoidRootPart")
 
-                            keyBtn.MouseButton1Click:Connect(function()
-                                -- Limpa botões atuais
-                                for _,child in ipairs(scriptsFrame:GetChildren()) do
-                                    if child:IsA("TextButton") then child:Destroy() end
-                                end
-                                local y5 = 0
-                                -- Cria botões dos links
-                                for _, linkData in ipairs(links) do
-                                    local nome, conteudo = linkData[1], linkData[2]
-                                    local linkBtn = Instance.new("TextButton")
-                                    linkBtn.Size = UDim2.new(1,-10,0,35)
-                                    linkBtn.Position = UDim2.new(0,5,0,y5)
-                                    linkBtn.BackgroundColor3 = Color3.fromRGB(80,80,80)
-                                    linkBtn.TextColor3 = Color3.new(1,1,1)
-                                    linkBtn.Text = nome
-                                    linkBtn.Parent = scriptsFrame
-                                    roundify(linkBtn,8)
-
-                                    linkBtn.MouseButton1Click:Connect(function()
-                                        if setclipboard then
-                                            setclipboard(conteudo)
-                                            linkBtn.Text = "📋 Copiado!"
-                                            task.wait(1.5)
-                                            linkBtn.Text = nome
-                                        else
-                                            warn("setclipboard não disponível!")
-                                        end
-                                    end)
-                                    y5 = y5 + 40
-                                end
-                            end)
-                            y4 = y4 + 40
-                        end
-                    end)
-                    y3 = y3 + 40
+    if root and target then
+        if enabled then
+            local bp = Instance.new("BodyPosition",root)
+            bp.Name = "FollowBP"
+            bp.MaxForce = Vector3.new(5000,5000,5000)
+            game:GetService("RunService").Heartbeat:Connect(function()
+                if bp.Parent and target then
+                    bp.Position = target.Position
                 end
             end)
-            y2 = y2 + 40
+        else
+            if root:FindFirstChild("FollowBP") then
+                root.FollowBP:Destroy()
+            end
         end
-    end)
+    end
+end)
+
+--------------------------------------------------------
+-- TAMANHO: GIGANTE, GRANDE, NORMAL, MINI, PEQUENO
+--------------------------------------------------------
+createAdminButton("🌌 Muito Gigante",function()
+    if selectedPlayer.Character then
+        selectedPlayer.Character:ScaleTo(5)
+    end
+end)
+
+createAdminButton("👹 Gigante",function()
+    if selectedPlayer.Character then
+        selectedPlayer.Character:ScaleTo(3)
+    end
+end)
+
+createAdminButton("💪 Grande",function()
+    if selectedPlayer.Character then
+        selectedPlayer.Character:ScaleTo(2)
+    end
+end)
+
+createAdminButton("🙂 Normal",function()
+    if selectedPlayer.Character then
+        selectedPlayer.Character:ScaleTo(1)
+    end
+end)
+
+createAdminButton("👶 Mini",function()
+    if selectedPlayer.Character then
+        selectedPlayer.Character:ScaleTo(0.75)
+    end
+end)
+
+createAdminButton("🐜 Pequeno",function()
+    if selectedPlayer.Character then
+        selectedPlayer.Character:ScaleTo(0.5)
+    end
+end)
+
+createAdminButton("⚫ Super Pequeno",function()
+    if selectedPlayer.Character then
+        selectedPlayer.Character:ScaleTo(0.25)
+    end
+end)
+
+--------------------------------------------------------
+-- FOGO INFINITO ON/OFF
+--------------------------------------------------------
+createAdminButton("🔥 Pegar Fogo ON/OFF",function()
+    local enabled = toggleState(selectedPlayer,"Fogo")
+    if selectedPlayer.Character and selectedPlayer.Character:FindFirstChild("HumanoidRootPart") then
+        if enabled then
+            local fire = Instance.new("Fire")
+            fire.Name = "InfiniteFire"
+            fire.Parent = selectedPlayer.Character.HumanoidRootPart
+        else
+            if selectedPlayer.Character.HumanoidRootPart:FindFirstChild("InfiniteFire") then
+                selectedPlayer.Character.HumanoidRootPart.InfiniteFire:Destroy()
+            end
+        end
+    end
+end)
+
+--------------------------------------------------------
+-- ESPIAR JOGADOR ON/OFF
+--------------------------------------------------------
+-- Botão Espiar Jogador
+createAdminButton("👀 Espiar Jogador ON/OFF",function()
+local enabled = toggleState(player,"Espiar")
+if player == game.Players.LocalPlayer then
+if enabled and selectedPlayer.Character and selectedPlayer.Character:FindFirstChild("Head") then
+workspace.CurrentCamera.CameraSubject = selectedPlayer.Character.Head
+else
+if player.Character and player.Character:FindFirstChild("Humanoid") then
+workspace.CurrentCamera.CameraSubject = player.Character.Humanoid
+end
+end
+end
+end)
+
+createAdminButton("🔓 Soltar Fixação",function()
+if selectedPlayer.Character and selectedPlayer.Character:FindFirstChild("HumanoidRootPart") then
+selectedPlayer.Character.HumanoidRootPart.Anchored = false
+end
+end)
+end
+end)
+
+-- 🔧 FIX PARA ROLAGEM FUNCIONAR 🔧
+scriptLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+scriptsFrame.CanvasSize = UDim2.new(0,0,0,scriptLayout.AbsoluteContentSize.Y + 10)
+end)
+
+gameLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+gamesFrame.CanvasSize = UDim2.new(0,0,0,gameLayout.AbsoluteContentSize.Y + 10)
 end)
 
 -- ================== SISTEMA DE KEYS ==================
@@ -655,10 +769,11 @@ end)
 local jogos = {
     ["99 Noite na Floresta"] = {
         -- Formato: {Nome Script, URL Script, URL Key, Caminho Local da Key, Download Automático (true/false)}
-        {"SOLUNA |STATUS|  🟢 ESTÁVEL", "https://raw.githubusercontent.com/endoverdosing/Soluna-API/refs/heads/main/99-Nights-in-the-Forest.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/99nights_key_validation.txt", "/storage/emulated/0/Delta/Workspace/99nights_key_validation.txt", true},
         {"VOIDWARE |STATUS|  🔵 PERFEITO", "https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua"}, -- sem key
         {"RAYFIELD |STATUS|  🔵 PERFEITO", "https://raw.githubusercontent.com/Iliankytb/Iliankytb/main/Best99NightsInTheForest"}, -- sem key
-        {"H4xSCRIPTS |STATUS|  ⚠️ CONEXÃO CRÍTICA", "https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/KEY%20H4xScripts.txt", "/storage/emulated/0/Delta/Workspace/H4xScripts/Key.txt", true},
+        {"H4xSCRIPTS |STATUS|  🟣 MONITORANDO", "https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/H4xScripts.txt", "/storage/emulated/0/Delta/Workspace/H4xScripts/Key.txt", true},
+        {"SOLUNA |STATUS|  🟢 ESTÁVEL", "https://raw.githubusercontent.com/endoverdosing/Soluna-API/refs/heads/main/99-Nights-in-the-Forest.lua", "https://raw.githubusercontent.com/Fu6rfho5zf/GET-KEY-/refs/heads/main/99nights_key_validation.txt", "/storage/emulated/0/Delta/Workspace/99nights_key_validation.txt", true},              
+        {"RINGTA |STATUS|   🟢 ESTÁVEL", "https://raw.githubusercontent.com/wefwef127382/99daysloader.github.io/refs/heads/main/ringta.lua"}, -- sem key        
     }
 }
 
