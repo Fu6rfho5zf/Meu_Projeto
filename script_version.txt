@@ -1,2 +1,2 @@
 1.03.0
-versão de correção de bugs
+correção de bugs
