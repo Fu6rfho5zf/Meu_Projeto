@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Exemplo de Catálogo</title>
+    <link>https://meuservidor.com</link>
+    <description>Canal de filmes de exemplo</description>
+
+    <item>
+      <title>Filme 1</title>
+      <link>https://meuservidor.com/video1.mp4</link>
+      <description>Esse é o primeiro filme</description>
+      <media:content url="https://meuservidor.com/video1.mp4" type="video/mp4">
+        <media:thumbnail url="https://meuservidor.com/thumb1.jpg" />
+      </media:content>
+    </item>
+
+    <item>
+      <title>Filme 2</title>
+      <link>https://meuservidor.com/video2.mp4</link>
+      <description>Esse é o segundo filme</description>
+      <media:content url="https://meuservidor.com/video2.mp4" type="video/mp4">
+        <media:thumbnail url="https://meuservidor.com/thumb2.jpg" />
+      </media:content>
+    </item>
+
+    <item>
+      <title>Filme 3</title>
+      <link>https://meuservidor.com/video3.mp4</link>
+      <description>Esse é o terceiro filme</description>
+      <media:content url="https://meuservidor.com/video3.mp4" type="video/mp4">
+        <media:thumbnail url="https://meuservidor.com/thumb3.jpg" />
+      </media:content>
+    </item>
+
+  </channel>
+</rss>
