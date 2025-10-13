@@ -1,1 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Fu6rfho5zf/Meu_Projeto/main/daniel%26maryhub.lua"))()
+{
+"FIntDebugTextureManagerSkipMips": "8"
+}
