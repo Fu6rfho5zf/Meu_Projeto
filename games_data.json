@@ -3,8 +3,8 @@
         "categoria": "99 NIGHT NA FORESTA",
         "jogos": [
             {
-                "titulo": "VOIDWARE",
-                "logoUrl": "https://tr.rbxcdn.com/180DAY-26cf1d0e9fa39bbea08c9418e65c2092/256/256/Image/Webp/noFilter",
+                "titulo": "test",
+                "logoUrl": "https://tr.rbxcdn.com/180DAY-643b9b9285f3bd9b63cf392db12a4d87/480/270/Image/Png/noFilter",
                 "scriptUrl": "https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua",
                 "key": ""
             },
