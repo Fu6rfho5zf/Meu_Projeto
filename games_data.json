@@ -3,14 +3,14 @@
         "categoria": "99 NIGHT NA FORESTA",
         "jogos": [
             {
-                "titulo": "test",
-                "logoUrl": "110140847664051",
+                "titulo": "VOIDWARE",
+                "logoUrl": "rbxassetid://110140847664051",
                 "scriptUrl": "https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua",
                 "key": ""
             },
             {
                 "titulo": "RAYFIELD",
-                "logoUrl": "https://tr.rbxcdn.com/180DAY-26cf1d0e9fa39bbea08c9418e65c2092/256/256/Image/Webp/noFilter",
+                "logoUrl": "rbxassetid://110140847664051",
                 "scriptUrl": "https://raw.githubusercontent.com/Iliankytb/Iliankytb/main/Best99NightsInTheForest",
                 "key": ""
             }
@@ -21,12 +21,10 @@
         "jogos": [
             {
                 "titulo": "EM BETA",
-                "logoUrl": "https://tr.rbxcdn.com/180DAY-ed63ecd7f857b0fe063690b1f88f99ae/384/216/Image/Jpeg/noFilter",
+                "logoUrl": "",
                 "scriptUrl": "",
                 "key": ""
             }
         ]
     }
 ]
-
-
