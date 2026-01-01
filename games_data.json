@@ -1,0 +1,30 @@
+[
+    {
+        "categoria": "99 NIGHT NA FORESTA",
+        "jogos": [
+            {
+                "titulo": "VOIDWARE",
+                "logoUrl": "https://tr.rbxcdn.com/180DAY-ed63ecd7f857b0fe063690b1f88f99ae/384/216/Image/Jpeg/noFilter",
+                "scriptUrl": "https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua",
+                "key": ""
+            },
+            {
+                "titulo": "RAYFIELD",
+                "logoUrl": "https://tr.rbxcdn.com/180DAY-ed63ecd7f857b0fe063690b1f88f99ae/384/216/Image/Jpeg/noFilter",
+                "scriptUrl": "https://raw.githubusercontent.com/Iliankytb/Iliankytb/main/Best99NightsInTheForest",
+                "key": ""
+            }
+        ]
+    },
+    {
+        "categoria": "BOLA DA MORTE",
+        "jogos": [
+            {
+                "titulo": "EM BETA",
+                "logoUrl": "https://tr.rbxcdn.com/180DAY-ed63ecd7f857b0fe063690b1f88f99ae/384/216/Image/Jpeg/noFilter",
+                "scriptUrl": "",
+                "key": ""
+            }
+        ]
+    }
+]
