@@ -4,13 +4,13 @@
         "jogos": [
             {
                 "titulo": "VOIDWARE",
-                "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuK7zoVI61TaO8a6kn4cG7pgcegYGYttNtVtuF2aR-Kw&s=10",
+                "logoUrl": "https://tr.rbxcdn.com/180DAY-26cf1d0e9fa39bbea08c9418e65c2092/256/256/Image/Webp/noFilter",
                 "scriptUrl": "https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua",
                 "key": ""
             },
             {
                 "titulo": "RAYFIELD",
-                "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuK7zoVI61TaO8a6kn4cG7pgcegYGYttNtVtuF2aR-Kw&s=10",
+                "logoUrl": "https://tr.rbxcdn.com/180DAY-26cf1d0e9fa39bbea08c9418e65c2092/256/256/Image/Webp/noFilter",
                 "scriptUrl": "https://raw.githubusercontent.com/Iliankytb/Iliankytb/main/Best99NightsInTheForest",
                 "key": ""
             }
