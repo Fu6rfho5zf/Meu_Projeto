@@ -1,6 +1,7 @@
 -- Interface.lua - Interface base para carregamento remoto
 -- URL: https://raw.githubusercontent.com/Fu6rfho5zf/Meu_Projeto/refs/heads/main/Interface
 
+
 local Players = game:GetService("Players")
 local PlayerGui = Players.LocalPlayer:WaitForChild("PlayerGui")
 local TweenService = game:GetService("TweenService")
