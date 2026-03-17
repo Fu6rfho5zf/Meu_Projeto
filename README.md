@@ -16,7 +16,7 @@ Este guia abrangente explora a **LIBRAYS UI**, uma biblioteca poderosa e flexív
 Para começar a usar a LIBRAYS UI em seu projeto, basta carregar a biblioteca utilizando o seguinte código:
 
 ```lua
-local Libra = loadstring(game:HttpGet("https://raw.githubusercontent.com/Fu6rfho5zf/Meu_Projeto/refs/heads/main/HUB%20LIBRAYS%20UI.lua"))()
+local Libra = loadstring(game:HttpGet("https://raw.githubusercontent.com/Fu6rfho5zf/LIBRAYS-HUB/refs/heads/main/HUB%20LIBRAYS%20UI.lua"))()
 ```
 
 ## 🚀 Guia de Uso
