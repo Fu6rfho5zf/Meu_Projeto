@@ -341,7 +341,7 @@ Este é um exemplo completo e funcional que demonstra a criação de uma janela,
 
 ```lua
 -- Carregar a biblioteca LIBRAYS UI
-local Libra = loadstring(game:HttpGet("https://raw.githubusercontent.com/Fu6rfho5zf/Meu_Projeto/refs/heads/main/HUB%20LIBRAYS%20UI.lua"))()
+local Libra = loadstring(game:HttpGet("https://raw.githubusercontent.com/Fu6rfho5zf/LIBRAYS-HUB/refs/heads/main/HUB%20LIBRAYS%20UI.lua"))()
 
 -- Criar a janela principal da UI
 local Window = Libra:CreateWindow({
