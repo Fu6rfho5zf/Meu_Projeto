@@ -8,50 +8,53 @@
     local Libra = loadstring(game:HttpGet("https://raw.githubusercontent.com/seu-usuario/LIBRAYS-UI/main/source.lua"))()
     
     local Window = Libra:CreateWindow({
-        Name = "Meu Script",                    -- Título da janela
-        Subtitle = "By: Dnxm200",               -- Subtítulo
-        LogoID = "123456789",                    -- ID da imagem (opcional)
-        OpenButtonName = "MENU",                  -- Nome do botão flutuante
-        OpenButtonPosition = {X = 350, Y = 30},   -- Posição do botão {X, Y}
+        Name = "Meu Script",
+        Subtitle = "By: Dnxm200",
+        LogoID = "123456789",
+        OpenButtonName = "MENU",
+        OpenButtonPosition = {X = 350, Y = 30},
         
         ConfigSettings = {
-            RootFolder = "LIBRAYS HUB",           -- Pasta principal
-            ConfigFolder = "Meu Script"           -- Pasta de configs
+            RootFolder = "LIBRAYS HUB",
+            ConfigFolder = "Meu Script"
         },
         
-        KeySystem = false,                         -- Ativar key system?
+        KeySystem = false,
         KeySettings = {
             Title = "Key System",
             Subtitle = "Insira sua key",
             Note = "Adquira sua key em...",
             SaveKey = true,
-            Key = {"1234", "5678"}                 -- Keys válidas
+            Key = {"1234", "5678"}
         }
     })
     
     -- Criar aba
     local Tab = Window:CreateTab({Name = "Principal"})
     
-    -- Criar botão
-    Tab:CreateButton({
-        Name = "Meu Botão",
-        Description = "Clique aqui",
-        Callback = function()
-            print("Clicou!")
+    -- Dropdown com seleção única
+    Tab:CreateDropdown({
+        Name = "Escolha uma opção",
+        Description = "Selecione apenas uma opção",
+        Options = {"Opção 1", "Opção 2", "Opção 3"},
+        MultipleOptions = false,  -- false = seleção única
+        CurrentOption = {"Opção 1"},  -- Array com a opção inicial
+        Callback = function(selected)
+            print("Opções selecionadas:", table.concat(selected, ", "))
         end
     })
     
-    -- Criar toggle
-    Tab:CreateToggle({
-        Name = "Meu Toggle",
-        Description = "Liga/Desliga",
-        CurrentValue = false,
-        Callback = function(Value)
-            print("Toggle:", Value)
+    -- Dropdown com múltipla seleção
+    Tab:CreateDropdown({
+        Name = "Escolha várias opções",
+        Description = "Selecione quantas quiser",
+        Options = {"Opção 1", "Opção 2", "Opção 3", "Opção 4", "Opção 5"},
+        MultipleOptions = true,  -- true = múltipla seleção
+        CurrentOption = {"Opção 1", "Opção 3"},  -- Array com as opções iniciais
+        Callback = function(selected)
+            print("Opções selecionadas:", table.concat(selected, ", "))
         end
     })
-    
-    -- Mais elementos: Input, Dropdown, Slider, Keybind, ColorPicker, Label, Divider, Section
 ]]
 
 local Libra = {}
@@ -807,15 +810,26 @@ function Libra:CreateWindow(config)
             return InputFrame
         end
         
-        -- Criar dropdown
+        -- CRIAR DROPDOWN COM SUPORTE A MÚLTIPLA SELEÇÃO (ATÉ 1 BILHÃO DE OPÇÕES)
         function Tab:CreateDropdown(dropConfig)
             dropConfig = dropConfig or {}
             dropConfig.Name = dropConfig.Name or "Dropdown"
             dropConfig.Description = dropConfig.Description or ""
             dropConfig.Options = dropConfig.Options or {"Opção 1", "Opção 2"}
-            dropConfig.CurrentOption = dropConfig.CurrentOption or dropConfig.Options[1]
-            dropConfig.MultipleOptions = dropConfig.MultipleOptions or false
+            dropConfig.MultipleOptions = dropConfig.MultipleOptions or false  -- true = múltipla seleção
+            dropConfig.CurrentOption = dropConfig.CurrentOption or {dropConfig.Options[1]}  -- Array de opções selecionadas
             dropConfig.Callback = dropConfig.Callback or function() end
+            
+            -- Garantir que CurrentOption seja sempre uma tabela
+            if type(dropConfig.CurrentOption) ~= "table" then
+                dropConfig.CurrentOption = {dropConfig.CurrentOption}
+            end
+            
+            -- Criar tabela de estado das opções
+            local selectedOptions = {}
+            for _, opt in ipairs(dropConfig.CurrentOption) do
+                selectedOptions[opt] = true
+            end
             
             local DropFrame = Instance.new("Frame", Tab.Page)
             DropFrame.Size = UDim2.new(0.95, 0, 0, 45)
@@ -845,17 +859,19 @@ function Libra:CreateWindow(config)
             D.TextXAlignment = "Left"
             D.Visible = not Window.Settings.CompactMode
             
+            -- Frame para mostrar opções selecionadas (resumido)
             local SelectedFrame = Instance.new("Frame", DropFrame)
             SelectedFrame.Size = UDim2.new(0, 80, 0, 25)
             SelectedFrame.Position = UDim2.new(1, -100, 0.5, -12.5)
             SelectedFrame.BackgroundColor3 = Window.CurrentTheme.Main
+            SelectedFrame.ClipsDescendants = true
             Instance.new("UICorner", SelectedFrame).CornerRadius = UDim.new(0, 4)
             
             local SelectedLabel = Instance.new("TextLabel", SelectedFrame)
             SelectedLabel.Size = UDim2.new(1, -10, 1, 0)
             SelectedLabel.Position = UDim2.new(0, 5, 0, 0)
             SelectedLabel.BackgroundTransparency = 1
-            SelectedLabel.Text = dropConfig.CurrentOption
+            SelectedLabel.Text = #dropConfig.CurrentOption == 1 and dropConfig.CurrentOption[1] or (#dropConfig.CurrentOption .. " selecionados")
             SelectedLabel.TextColor3 = Window.CurrentTheme.Accent
             SelectedLabel.Font = "GothamBold"
             SelectedLabel.TextSize = 11
@@ -876,6 +892,7 @@ function Libra:CreateWindow(config)
             DropBtn.Text = ""
             DropBtn.AutoButtonColor = false
             
+            -- Container para as opções (ScrollingFrame para suportar muitas opções)
             local DropContainer = Instance.new("ScrollingFrame", DropFrame)
             DropContainer.Size = UDim2.new(1, -10, 0, 0)
             DropContainer.Position = UDim2.new(0, 5, 0, 45)
@@ -891,35 +908,102 @@ function Libra:CreateWindow(config)
             DropList.HorizontalAlignment = "Center"
             
             local open = false
-            local selected = dropConfig.CurrentOption
             
+            -- Criar opções
+            local optionButtons = {}
             for _, opt in ipairs(dropConfig.Options) do
-                local OptBtn = Instance.new("TextButton", DropContainer)
-                OptBtn.Size = UDim2.new(0.95, 0, 0, 23)
-                OptBtn.BackgroundColor3 = Window.CurrentTheme.Main
-                OptBtn.Text = "  " .. opt
-                OptBtn.TextColor3 = Window.CurrentTheme.Text:Lerp(Color3.fromRGB(200,200,200), 0.5)
-                OptBtn.Font = "Gotham"
-                OptBtn.TextSize = 11
-                OptBtn.TextXAlignment = "Left"
-                OptBtn.AutoButtonColor = false
-                Instance.new("UICorner", OptBtn).CornerRadius = UDim.new(0, 4)
+                local OptFrame = Instance.new("Frame", DropContainer)
+                OptFrame.Size = UDim2.new(0.95, 0, 0, 23)
+                OptFrame.BackgroundColor3 = Window.CurrentTheme.Main
+                Instance.new("UICorner", OptFrame).CornerRadius = UDim.new(0, 4)
                 
+                -- Checkbox ou indicador de seleção
+                local CheckIndicator = Instance.new("Frame", OptFrame)
+                CheckIndicator.Size = UDim2.new(0, 14, 0, 14)
+                CheckIndicator.Position = UDim2.new(0, 5, 0.5, -7)
+                CheckIndicator.BackgroundColor3 = selectedOptions[opt] and Window.CurrentTheme.Accent or Color3.fromRGB(80,80,80)
+                CheckIndicator.BorderSizePixel = 0
+                Instance.new("UICorner", CheckIndicator).CornerRadius = UDim.new(0, 3)
+                
+                -- Texto da opção
+                local OptLabel = Instance.new("TextLabel", OptFrame)
+                OptLabel.Size = UDim2.new(1, -30, 1, 0)
+                OptLabel.Position = UDim2.new(0, 25, 0, 0)
+                OptLabel.BackgroundTransparency = 1
+                OptLabel.Text = opt
+                OptLabel.TextColor3 = Window.CurrentTheme.Text:Lerp(Color3.fromRGB(200,200,200), 0.5)
+                OptLabel.Font = "Gotham"
+                OptLabel.TextSize = 11
+                OptLabel.TextXAlignment = "Left"
+                
+                -- Botão clicável
+                local OptBtn = Instance.new("TextButton", OptFrame)
+                OptBtn.Size = UDim2.new(1, 0, 1, 0)
+                OptBtn.BackgroundTransparency = 1
+                OptBtn.Text = ""
+                OptBtn.AutoButtonColor = false
+                
+                optionButtons[opt] = {
+                    Frame = OptFrame,
+                    Indicator = CheckIndicator,
+                    Label = OptLabel,
+                    Button = OptBtn
+                }
+                
+                -- Função de clique
                 OptBtn.MouseButton1Click:Connect(function()
-                    selected = opt
-                    SelectedLabel.Text = opt
-                    DropContainer.Visible = false
-                    open = false
-                    Arrow.Text = "▼"
-                    TweenService:Create(DropFrame, Easing.Smooth, {Size = UDim2.new(0.95, 0, 0, 45)}):Play()
-                    pcall(dropConfig.Callback, opt)
+                    if dropConfig.MultipleOptions then
+                        -- Múltipla seleção: toggle
+                        selectedOptions[opt] = not selectedOptions[opt]
+                        CheckIndicator.BackgroundColor3 = selectedOptions[opt] and Window.CurrentTheme.Accent or Color3.fromRGB(80,80,80)
+                        
+                        -- Atualizar texto do label selecionado
+                        local selectedList = {}
+                        for o, selected in pairs(selectedOptions) do
+                            if selected then
+                                table.insert(selectedList, o)
+                            end
+                        end
+                        
+                        if #selectedList == 0 then
+                            SelectedLabel.Text = "Nenhum"
+                        elseif #selectedList == 1 then
+                            SelectedLabel.Text = selectedList[1]
+                        else
+                            SelectedLabel.Text = #selectedList .. " selecionados"
+                        end
+                        
+                        pcall(dropConfig.Callback, selectedList)
+                    else
+                        -- Seleção única: marca apenas este, desmarca os outros
+                        for o, _ in pairs(selectedOptions) do
+                            selectedOptions[o] = false
+                        end
+                        selectedOptions[opt] = true
+                        
+                        -- Atualizar indicadores
+                        for o, btn in pairs(optionButtons) do
+                            btn.Indicator.BackgroundColor3 = selectedOptions[o] and Window.CurrentTheme.Accent or Color3.fromRGB(80,80,80)
+                        end
+                        
+                        SelectedLabel.Text = opt
+                        
+                        -- Fechar dropdown após seleção única
+                        open = false
+                        Arrow.Text = "▼"
+                        DropContainer.Visible = false
+                        TweenService:Create(DropFrame, Easing.Smooth, {Size = UDim2.new(0.95, 0, 0, 45)}):Play()
+                        
+                        pcall(dropConfig.Callback, {opt})
+                    end
                 end)
                 
+                -- Hover effect
                 OptBtn.MouseEnter:Connect(function()
-                    TweenService:Create(OptBtn, Easing.Quick, {BackgroundColor3 = Window.CurrentTheme.Secondary}):Play()
+                    TweenService:Create(OptFrame, Easing.Quick, {BackgroundColor3 = Window.CurrentTheme.Secondary}):Play()
                 end)
                 OptBtn.MouseLeave:Connect(function()
-                    TweenService:Create(OptBtn, Easing.Quick, {BackgroundColor3 = Window.CurrentTheme.Main}):Play()
+                    TweenService:Create(OptFrame, Easing.Quick, {BackgroundColor3 = Window.CurrentTheme.Main}):Play()
                 end)
             end
             
@@ -928,9 +1012,12 @@ function Libra:CreateWindow(config)
                 Arrow.Text = open and "▲" or "▼"
                 DropContainer.Visible = open
                 if open then
-                    local newHeight = 45 + math.min(150, #dropConfig.Options * 25)
+                    local maxHeight = 300  -- Altura máxima do dropdown
+                    local optionHeight = #dropConfig.Options * 25
+                    local newHeight = 45 + math.min(maxHeight, optionHeight)
                     TweenService:Create(DropFrame, Easing.Smooth, {Size = UDim2.new(0.95, 0, 0, newHeight)}):Play()
                     DropContainer.Size = UDim2.new(1, -10, 0, newHeight - 45)
+                    DropContainer.CanvasSize = UDim2.new(0, 0, 0, optionHeight)
                 else
                     TweenService:Create(DropFrame, Easing.Smooth, {Size = UDim2.new(0.95, 0, 0, 45)}):Play()
                 end
@@ -1523,15 +1610,17 @@ function Libra:CreateWindow(config)
             Name = "Selecionar Tema",
             Description = "Escolha um tema predefinido",
             Options = ThemeOptions,
-            CurrentOption = self.Settings.ThemeName,
+            MultipleOptions = false,
+            CurrentOption = {self.Settings.ThemeName},
             Callback = function(opt)
-                self.CurrentTheme = self.Themes[opt]
-                self.Settings.ThemeName = opt
+                local selected = opt[1]
+                self.CurrentTheme = self.Themes[selected]
+                self.Settings.ThemeName = selected
                 self.Main.BackgroundColor3 = self.CurrentTheme.Main
                 self.TopBar.BackgroundColor3 = self.CurrentTheme.Secondary
                 self.Title.TextColor3 = self.CurrentTheme.Accent
                 self.OpenBtn.TextColor3 = self.CurrentTheme.Accent
-                Libra:Notify("Tema", "Tema " .. opt .. " ativado!", 2, Window.Screen)
+                Libra:Notify("Tema", "Tema " .. selected .. " ativado!", 2, Window.Screen)
             end
         })
         
